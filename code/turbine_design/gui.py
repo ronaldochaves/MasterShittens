@@ -474,8 +474,8 @@ def graph_zBn():
     return fig
 
 
-def initial_screen():  # cria janela principal
-    global myGui, initial_window
+def initial_screen(myGui):  # cria janela principal
+    # global myGui, initial_window
     initial_window = tk.Frame(myGui)
     initial_window.place(width=myGui_width, height=myGui_height, x=0, y=0)
 
@@ -509,6 +509,7 @@ def initial_screen():  # cria janela principal
     start_button = tk.Button(initial_window, text="START",
                              command=design_screen, font=("times new roman", 14))
     start_button.place(x=myGui_width // 2 - 50, y=myGui_height - 180, width=100, height=50)
+    return initial_window
 
 
 def ita_logo_plot():
