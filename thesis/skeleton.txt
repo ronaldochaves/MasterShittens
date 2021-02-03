@@ -1,0 +1,37 @@
+# Skeleton Master shittens
+
+## Introduction
+Foguetes existem
+Para fazer foguete, precisa de projeto
+Existem muitos projetos
+Uns assim, outros assados
+The matter goal principle timeledssmness is increase efficiency
+Muitas não linearidades, que a glr já vem tentando achar correlações empíricas
+Nem sempre o resultado é o melhor, o que abre espaço para uso de ferramentas computacionais, bla bla acelerar processos durtante pre-concept blabbla
+Posto isso, os objetivos gerais são ...
+e os objetivos específicos
+
+## Revisão da Literatura
+
+### Physics
+Fluid mechanics
+Correlações empíricas
+faixa de valores, tal autor fala isso
+
+### Computational
+O que precisa de fato de GA --> Go straight-forward
+Fulanos já usaram, se é aplicável, visão crítica, o que precisa ser 
+Alguns candangos já fizeram ensaio experimental, comparar com meus numéricos, (achar outros candangos que já compararam dado numérico)
+! Até aqui é só trabalhos dos outros
+
+
+## Metodologia
+Descrever o que eu fiz, de maneira que qq pessoa possa reproduzir e obter o mesmo resultado
+
+## Resultados
+### Validation
+Comparar com resultados famosos, etc
+concondância com a literatura
+### Meus resultados
+
+## Conclusões
