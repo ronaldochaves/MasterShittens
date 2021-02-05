@@ -1,0 +1,190 @@
+% !TeX encoding = ISO-8859-1
+
+%%% by
+%%%   Fabio Fagundes Silveira   -  ffs [at] ita [dot] br
+%%%   $Id: itabr.babel 41 2006-07-20 14:30:26Z ffs $
+
+%--------------------------------------------------------
+% Graduação (TG)
+%--------------------------------------------------------
+\gdef\itaoptioncoursetgbabel{Graduação}
+\gdef\itaworkleveltgbabel{Trabalho}
+\gdef\itaauthortitletgbabel{Engenheir\ifthenelse{\equal{\@authorGender}{masc}}{o}{a}}
+
+%--------------------------------------------------------
+% Mestrado
+%--------------------------------------------------------
+\gdef\itaoptioncoursemscbabel{Mestrado}
+\gdef\itaworklevelmscbabel{Dissertação}
+\gdef\itaauthortitlemscbabel{Mestr\ifthenelse{\equal{\@authorGender}{masc}}{e}{a}}
+
+%--------------------------------------------------------
+% Doutorado
+%--------------------------------------------------------
+\gdef\itaoptioncoursedscbabel{Doutorado}
+\gdef\itaworkleveldscbabel{Tese}
+\gdef\itaauthortitledscbabel{Doutor\ifthenelse{\equal{\@authorGender}{masc}}{}{a}}
+
+%--------------------------------------------------------
+%Exame de Qualificação
+%--------------------------------------------------------
+\gdef\itaworklevelqualibabel{Exame de Qualificação}
+\gdef\itaauthortitlequalibabel{Doutor\ifthenelse{\equal{\@authorGender}{masc}}{o}{a}}
+\gdef\itaqualifictextbabel{{\nh{\itaworklevel\ submetido à avaliação, como requisito parcial para a obtenção do título de \itaauthortitlequalibabel\ em Ciências no Programa de Pós-Graduação em \itaworkcourse, Área de \itaworkarea.}}}
+
+\gdef\itanametitlequalibabel{\@instAbbr -- \textsc{\@instFull}}
+\gdef\itaposnametitlequalibabel{\textsc{Pós-Graduação em \itaworkcourse}}
+\gdef\itaarenametitlequalibabel{\textsc{Área de \itaworkarea}}
+
+%--------------------------------------------------------
+%Tese ou Dissertação
+%--------------------------------------------------------
+\gdef\itatitletextbabel{\nh{\itaworklevel\ apresentada à Pró-Reitoria de Pós-Graduação e Pesquisa do \@instFull, como parte dos requisitos para obtenção do título de \itaauthortitle\ em Ciências no Programa de Pós-Graduação em \itaworkcourse, Área de \itaworkarea}.}
+
+\gdef\itathesisapprovedmembersbabel{\itaworklevel\ aprovada em sua versão final pelos abaixo assinados:}
+                                   
+\gdef\@instCountry{Brasil}
+
+%--------------------------------------------------------
+%Trabalho de Graduação (TG)
+%--------------------------------------------------------
+\gdef\itatitletexttgbabel{\nh{Trabalho apresentado à Pró-Reitoria de Graduação do \@instFull, como parte dos requisitos para conclusão do curso de \itaworkcourse}.}
+	  
+\gdef\itathesisapprovedmemberstgbabel{Essa publicação foi aceita como Relatório Final de Trabalho de Graduação.}
+% outra possibilidade: Trabalho aprovado em sua versão final pelos abaixo assinados:
+
+%--------------------------------------------------------
+%Glossário
+%--------------------------------------------------------
+\gdef\itaglossarynamebabel{Glossário}
+
+
+%--------------------------------------------------------
+%Referencias
+%--------------------------------------------------------
+\gdef\itareferencesnamebabel{Referências}
+
+
+%--------------------------------------------------------
+%Titulos Diversos
+%--------------------------------------------------------
+\gdef\namecover{Capa}
+\gdef\listofabbreviationsname{Lista de Abreviaturas e Siglas}
+\gdef\listofsymbolsname{Lista de Símbolos}
+\gdef\nameepigraph{Epígrafe}
+\gdef\namededicatory{Dedicatória}
+\gdef\nameacknowledgment{Agradecimentos}
+\gdef\nameabstract{Resumo}
+\gdef\nameengabstract{Abstract}
+\gdef\nametitlepage{Folha de Rosto}
+\gdef\namecip{Verso da Folha de Rosto}
+\gdef\namepageexaminersbookmark{Folha da Banca}
+\gdef\namepageexaminers{Composição da Banca Examinadora:}
+\gdef\namecontents{Sumário}
+\gdef\nameannex{Anexo}
+\gdef\itafigurenamebabel{FIGURA}
+\gdef\itatablenamebabel{TABELA}
+\gdef\itadraftbabel{Versão Preliminar:}
+\gdef\itapagedocregbabel{Folha de Registro do Documento}
+
+%--------------------------------------------------------
+% Defaults
+%--------------------------------------------------------
+\gdef\@titlebabel{Título do Trabalho}                         % {Título do Trabalho}
+
+% Autor
+\gdef\@authorbabel{Nome d\ifthenelse{\equal{\@authorGender}{masc}}{o}{a} Autor\ifthenelse{\equal{\@authorGender}{masc}}{}{a}}
+\gdef\@authorwordbabel{Autor\ifthenelse{\equal{\@authorGender}{masc}}{}{a}}
+\gdef\itaauthoraddressbabel{Rua Tal, xxx}                     % {Rua Tal, xxx}
+
+% Orientador
+\gdef\advisorNamebabel{Nome d\ifthenelse{\equal{\advisorGender}{masc}}{o}{a} Orientador\ifthenelse{\equal{\advisorGender}{masc}}{}{a}}                     
+
+\gdef\advisorTitlebabel{Prof\ifthenelse{\equal{\advisorGender}{masc}}{}{$^\textnormal{a}$}.~Dr\ifthenelse{\equal{\advisorGender}{masc}}{}{$^\textnormal{a}$}.}
+			
+\gdef\itaadvisorwordbabel{Orientador\ifthenelse{\equal{\advisorGender}{masc}}{}{a}}
+
+% Coorientador		
+\gdef\coadvisorNamebabel{Nome d\ifthenelse{\equal{\coadvisorGender}{masc}}{o}{a} Coorientador\ifthenelse{\equal{\coadvisorGender}{masc}}{}{a}}
+
+\gdef\coadvisorTitlebabel{Prof\ifthenelse{\equal{\coadvisorGender}{masc}}{}{$^\textnormal{a}$}.~Dr\ifthenelse{\equal{\coadvisorGender}{masc}}{}{$^\textnormal{a}$}.}
+
+\gdef\itacoadvisorwordbabel{Coorientador\ifthenelse{\equal{\coadvisorGender}{masc}}{}{a}}
+
+% Boss
+\gdef\bossNamebabel{Nome d\ifthenelse{\equal{\bossGender}{masc}}{o}{a} Pró-Reitor\ifthenelse{\equal{\bossGender}{masc}}{}{a} de Pós-Graduação e Pesquisa} 
+
+% Nome do Pró-Reitor de Pós-Graduação e Pesquisa
+\gdef\bossTitlebabel{Prof\ifthenelse{\equal{\bossGender}{masc}}{}{$^\textnormal{a}$}.~Dr\ifthenelse{\equal{\bossGender}{masc}}{}{a}.}
+
+\gdef\itabosswordbabel{Pró-Reitor\ifthenelse{\equal{\bossGender}{masc}}{}{a} de Pós-Graduação e Pesquisa}
+% Pró-Reitor de Pos-Graduacao e Pesquisa
+
+\gdef\bosscourseNamebabel{Nome d\ifthenelse{\equal{\bossGender}{masc}}{o}{a} Coordenador\ifthenelse{\equal{\bossGender}{masc}}{}{a} do Curso de \itaworkcourse}
+
+\gdef\bosscourseTitlebabel{Prof\ifthenelse{\equal{\bossGender}{masc}}{}{$^\textnormal{a}$}.~Dr\ifthenelse{\equal{\bossGender}{masc}}{}{a}.}
+
+% Nome do coordenador do respectivo curso de graduação							                     
+\gdef\itabosscoursewordbabel{Coordenador\ifthenelse{\equal{\bossGender}{masc}}{}{a} do Curso de \itaworkcourse}
+
+%--------------------------------------------------------
+% Comandos para correção de gênero
+%--------------------------------------------------------
+\newcommand{\genderCarrer}[2]{
+	\ifthenelse{\equal{#1}{Prof.}}
+	{Prof\ifthenelse{\equal{#2}{masc}}{.}{$^\textnormal{a}$.}}
+	{#1}%
+}
+
+\newcommand{\genderDegree}[2]{
+\ifthenelse{\equal{#1}{Dr.}}
+{Dr\ifthenelse{\equal{#2}{masc}}{.}{$^\textnormal{a}$.}}
+{#1}%
+}
+
+\gdef\itaworklevelbabel{(Documento)}                               % {(Documento)}
+\gdef\itaworkcoursebabel{(Curso)}                                  % {(Curso)}
+\gdef\itaworkareababel{(Área)}                                     % {(Área)}
+\gdef\itaauthortitlebabel{(Título)}                                % {(Título)}
+\gdef\courseofbabel{Curso de}									   % {Curso de}
+\gdef\cdunumberbabel{CDU}										   % Número de Registro (Biblioteca)
+
+\gdef\authorGendermfbabel{mf}                              				  % masc ou fem
+\gdef\advisorGendermfbabel{mf}                            					 % masc ou fem
+\gdef\coadvisorGendermfbabel{mf}                          					 % masc ou fem
+\gdef\bossGenderbabel{mf}                               					 % masc ou fem
+\gdef\bosscoursegendermfbabel{mf}                         					 % masc ou fem
+
+\gdef\finalpaperbabel{Trabalho de Graduação}					   % Trabalho de Graduação
+\gdef\itatglevelbabel{Trabalho de Conclusão de Curso (Graduação)}  % Trabalho de Conclusão de Curso (Graduação)
+
+%--------------------------------------------------------
+%Pagina CIP
+%--------------------------------------------------------
+\gdef\itaciptitlebabel{Dados Internacionais de Catalogação-na-Publicação (CIP)}
+\gdef\itacipbibbabel{Divisão de Informação e Documentação}
+
+\gdef\itacipdata1babel {\itaworklevel\ de \itaoptioncourse\ -- Curso de \itaworkcourse. Área de \itaworkarea\ -- \@instFull, \DTMfetchyear{defDate}. \advisorRole: \advisorTitle\ \advisorName. \@ifundefined{@coadvisor}{}{\coadvisorRole: \coadvisorTitle\ \coadvisorName.}\par \vspace{\baselineskip} \@cipkw\ I. \@instFull. II.~Título.\par}
+
+\gdef\itaciptgdata1babel {\itaworklevel\ de \itaoptioncourse\ -- Curso de \itaworkcourse -- \@instFull, \DTMfetchyear{defDate}. \advisorRole: \advisorTitle\ \advisorName. \@ifundefined{@coadvisor}{}{\advisorRole: \coadvisorTitle\ \coadvisorName.}\par \vspace{\baselineskip} \@cipkw\ I. \@instFull. II.~Título.\par}
+
+\gdef\itarefbibnamecipbabel{REFERÊNCIA BIBLIOGRÁFICA}
+
+\gdef\itacip2babel {\itaworklevel\ de \itaoptioncourse\ -- \@instFull, \@instCity.}
+				
+\gdef\itaciptg2babel {Trabalho de Conclusão de Curso (Graduação) -- \@instFull, \@instCity.}
+
+\gdef\itacedirnamebabel{CESSÃO DE DIREITOS}
+\gdef\itacipauthorname{NOME D\ifthenelse{\equal{\@authorGender}{masc}}{O}{A} AUTOR\ifthenelse{\equal{\@authorGender}{masc}}{}{A}:}
+\gdef\itacipworktitlebabel{TÍTULO DO TRABALHO:}
+\gdef\itacipworktype{TIPO DO TRABALHO/ANO:}
+
+\gdef\itacesdirtextbabel{É concedida ao \@instFull\ permissão para reproduzir cópias desta \ifthenelse{\equal{\itaoptionlevel}{quali}}{exame de qualificação}{\ifthenelse{\equal{\itaoptionlevel}{msc}}{dissertação}{tese}} e para emprestar ou vender cópias somente para propósitos acadêmicos e científicos. \ifthenelse{\equal{\@authorGender}{masc}}{O autor}{A autora} reserva outros direitos de publicação e nenhuma parte desta \ifthenelse{\equal{\itaoptionlevel}{quali}}{exame de qualificação}{\ifthenelse{\equal{\itaoptionlevel}{msc}}{dissertação}{tese}} pode ser reproduzida sem a autorização \ifthenelse{\equal{\@authorGender}{masc}}{do autor}{da autora}.}
+
+\gdef\itacesdirtgtextbabel{É concedida ao \@instFull\ permissão para reproduzir cópias deste trabalho de graduação e para emprestar ou vender cópias somente para propósitos acadêmicos e científicos. \ifthenelse{\equal{\@authorGender}{masc}}{O autor}{A autora} reserva outros direitos de  publicação e nenhuma parte deste trabalho de graduação pode ser reproduzida sem a autorização \ifthenelse{\equal{\@authorGender}{masc}}{do autor}{da autora}.}
+
+\gdef\FRDitaorgaointernobabel{\@instFull\ -- \@instAbbr}
+
+\gdef\FRDitapalavraapresentacaotgbabel{Trabalho de Graduação, \@instAbbr, \@instCity, \DTMfetchyear{defDate}. \NumPenultimaPagina\ páginas.}
+
+\gdef\FRDitapalavraapresentacaobabel{\@instAbbr, \@instCity. Curso de \itaoptioncourse. Programa de Pós-Graduação em \itaworkcourse. Área de \itaworkarea. \advisorRole: \advisorTitle~\advisorName. \coadvisorRole: \coadvisorTitle~\coadvisorName. Defesa em \DTMusedate{defDate}. Publicada em \DTMusedate{publDate}.}

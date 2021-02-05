@@ -1,0 +1,67 @@
+% !TeX encoding = ISO-8859-1
+
+%%% by
+%%%   Fábio Fagundes Silveira   -  ffs [at] ita [dot] br
+%%%   $Id: defaults.def 2 2006-01-18 11:55:58Z ffs $
+
+\renewcommand{\@title}{\@titlebabel}                     	% {Título do Trabalho}
+\renewcommand{\date}[1]{}
+\renewcommand{\@author}{\@authorbabel}                   	% {Nome do Autor}
+\newcommand{\@authorword}{\@authorwordbabel}			 	% {Autor}
+\newcommand{\authorAddress}{\itaauthoraddressbabel}		 	% {Rua Tal, xxx}
+\newcommand{\cdunumber}{\cdunumberbabel}				 	% {Classificação Decimal Universal - Biblioteca}
+
+\newcommand{\authorGendermf}{\authorGendermfbabel}          % masc ou fem
+\newcommand{\advisorGendermf}{\advisorGendermfbabel}        % masc ou fem
+\newcommand{\coadvisorgendermf}{\coadvisorgendermfbabel}    % masc ou fem
+\newcommand{\bossgendermf}{\bossgendermfbabel}              % masc ou fem
+\newcommand{\bosscoursegendermf}{\bosscoursegendermfbabel}  % masc ou fem
+	
+\newcommand{\advisorName}{\advisorNamebabel}       			% {Nome do Orientador}
+\newcommand{\advisorTitle}{\advisorTitlebabel}     			% {Prof.~Dr.}
+\newcommand{\itaadvisorword}{\itaadvisorwordbabel}       	% {Orientador}
+
+\newcommand{\coadvisorName}{\coadvisorNamebabel}   			% {Nome do Coorientador}
+\newcommand{\coadvisorTitle}{\coadvisorTitlebabel} 			% {Prof.~Dr.}
+\newcommand{\itacoadvisorword}{\itacoadvisorwordbabel}   	% {Coorientador}
+	
+\newcommand{\bossName}{\bossNamebabel}             			% {Nome do Chefe da Divisão de Pós-graduação}
+\newcommand{\bossTitle}{\bossTitlebabel}              		% {Prof.~Dr.}
+\newcommand{\itabossword}{\itabosswordbabel}             	% {Chefe da Divisão de Pós-graduação}
+
+\newcommand{\bosscourseName}{\bosscourseNamebabel}	% {Nome do coordenador do curso de graduação}
+\newcommand{\bosscourseTitle}{\bosscourseTitlebabel}       % {Prof.~Dr.}
+\newcommand{\itabosscourseword}{\itabosscoursewordbabel}    % {Coordenador do curso de graduação}
+
+
+\newcommand{\itaworklevel}{\itaworklevelbabel}           	% {(Documento)}
+\newcommand{\itaworkcourse}{\itaworkcoursebabel}         	% {(Curso)}
+\newcommand{\itaworkdept}{\itaworkdeptbabel}             	% {(Divisão)}
+\newcommand{\itaworkarea}{\itaworkareababel}             	% {(Área)}
+\newcommand{\itaauthortitle}{\itaauthortitlebabel}       	% {(Título)}
+
+\newcommand{\itaoptionlevel}{}                           	% msc, dsc, quali
+\newcommand{\itaoptioncourse}{}                          
+\newcommand{\itaoptionquali}{}
+\newcommand{\itaoptionfem}{}
+
+\newcommand{\itaspacing}{}
+	
+\newcommand{\finalpaper}{\finalpaperbabel}					% Trabalho de Graduação
+\newcommand{\itatglevel}{\itatglevelbabel}					% Trabalho de Conclusão de Curso (Graduação)
+
+\newcommand{\courseof}{\courseofbabel}						% Course of
+
+\newcommand{\itatitletexttg}{\itatitletexttgbabel}
+\newcommand{\itathesisapprovedmemberstg}{\itathesisapprovedmemberstgbabel}
+
+%--------------------------------------------------------
+%Folha de Registro do Documento
+%--------------------------------------------------------
+\gdef\FRDitadatababel{data..}
+\gdef\FRDitadocnrobabel{nrodoc..}
+\gdef\FRDitaorgaointernobabel{Órgão Interno..}
+\gdef\FRDitapalavrasautorbabel{Palavras-chave do autor..}
+\gdef\FRDitapalavrasresultbabel{Palavras-chave resultantes..}
+%\gdef\FRDitapalavraapresentacaobabel{Curso Programa Área Orientador Data..}
+\gdef\FDRitaabstractcontent{Resumo do Trabalho..}

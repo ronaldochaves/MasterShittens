@@ -2495,6 +2495,6 @@ myGui.geometry('{}x{}+{}+{}'.format(myGui_width,
 standard_font = ("times new roman", 10)
 framelab_font = ("times new roman", 12, "bold", "italic")
 
-initial_screen()
+# initial_screen()
 
-myGui.mainloop()
+# myGui.mainloop()

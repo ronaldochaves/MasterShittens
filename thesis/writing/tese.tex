@@ -1,0 +1,217 @@
+% !TeX encoding = ISO-8859-1
+
+%%% Exemplo de utilização da classe ITA
+%%%
+%%%   por        Fábio Fagundes Silveira   -  ffs [at] ita [dot] br
+%%%              Benedito C. O. Maciel     -  bcmaciel [at] ita [dot] br
+%%%              Giovani Volnei Meinertz   -  giovani [at] ita [dot] br
+%%%    	         Hudson Alberto Bode       -  bode [at] ita [dot]br
+%%%    	         P. I. Braga de Queiroz    -  pi [at] ita [dot] br
+%%%    	         Jorge A. B. Gripp         -  gripp [at] ita [dot] br
+%%%    	         Juliano Monte-Mor         -  jamontemor [at] yahoo [dot] com [dot] br
+%%%    	         Tarcisio A. B. Gripp      -  tarcisio.gripp [at] gmail [dot] com
+%%%
+%%%
+%%%  IMPORTANTE: O texto contido neste exemplo não significa absolutamente nada.  :-)
+%%%              O intuito aqui é demonstrar os comandos criados na classe e suas
+%%%              respectivas utilizações.
+%%%
+%%%  Tese.tex  2016-08-25
+%%%  $HeadURL: http://www.apgita.org.br/apgita/teses-e-latex.php $
+%%%
+%%% ITALUS
+%%% Instituto Tecnológico de Aeronáutica --- ITA, São José dos Campos, Brasil
+%%%                   http://groups.yahoo.com/group/italus/
+%%% Discussion list: italus {at} yahoogroups.com
+%%%
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Para alterar o TIPO DE DOCUMENTO, preencher a linha abaixo \documentclass[?]{?}
+%   \documentclass[tg]{ita}			= Trabalho de Graduação
+%   				msc     		= Dissertação de Mestrado
+%   				dsc      		= Tese de Doutorado
+%   				quali    		= Exame de Qualificação
+% Para 'Draft Version'/'Versão Preliminar' com data no rodapé, adicionar 'draft':
+%   \documentclass[dsc, draft]{ita} 
+% Para trabalhos em Inglês, adicionar 'eng':
+%   \documentclass[dsc, eng]{ita}
+%	\documentclass[dsc, eng, draft]{ita}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\documentclass[msc]{itathesis}    % itathesis.cls based on standard book.cls 
+% Quando alterar a classe, por exemplo de [msc] para [msc, eng]) rode mais uma vez o botão BUILD OUTPUT caso haja erro
+\usepackage{ae}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{float}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Espaçamento padrão de todo o documento
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%\onehalfspacing
+
+%singlespacing Para um espaçamento simples
+%onehalfspacing Para um espaçamento de 1,5
+%doublespacing Para um espaçamento duplo
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Identificações (se o trabalho for em Inglês, insira os dados em Inglês)
+% Para entradas abreviadas de Professora (Profa.) em Português escreva: Prof$^\textnormal{a}$.
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+% Instituição: Nome, Abreviação e Endereço
+\inst{Instituto Tecnológico de Aeronáutica}{ITA}
+\instAddress{Praça Marechal Eduardo Gomes, 50}{12.228-900}{São José dos Campos}{SP}{Campo Montenegro}
+
+% Autor do trabalho: Nome, Sobrenome, Gênero e Endereço
+\author{Maria das Graças}{Silva}{fem}
+\authorAddress{Av. Cidade Jardim, 679}{12.233-066}{São José dos Campos}{SP}
+
+% Título da Tese/Dissertação/Trabalho
+\title{Uma Abordagem Sobre o Dilema do Cupim Frente ao Concreto Armado Utilizando Diferentes Composições Cimentísticas}
+
+\course{Engenharia Aeronáutica e Mecânica}			% Programa de PG ou Curso de Graduação
+\area{Sistemas Aeroespaciais e Mecatrônica}			% Área de concentração na PG (Não utilizado no caso de TG)\\
+
+% Orientador
+\advisor{Prof.}{Dr.}{Adalberto Santos Dupont}{masc}{ITA}
+
+% Coorientador (Caso não haja coorientador, comentadar com um % na frente)
+\coadvisor{Prof.}{Dr.}{Doralice Serra}{fem}{OVNI}
+
+% Pró-reitor da Pós-Graduação (Coordenador do curso no caso de TG)
+\boss{Prof.}{Dr.}{John von Neumann}{masc}
+
+% Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
+\kwcip{Cupim}
+\kwcip{Dilema}
+\kwcip{Construção}
+
+% Membros da banca examinadora
+\examiner{Prof.}{Dr.}{Alan Turing}{masc}{Presidente}{ITA}
+\examiner{Prof.}{Dr.}{Linus Torwald}{masc}{Membro externo}{UXXX}
+\examiner{Prof.}{Dr.}{Richard Stallman}{masc}{}{UYYY}
+\examiner{Prof.}{Dr.}{Donald Duck}{masc}{}{DISNEY}
+\examiner{Prof.}{Dr.}{Minie Mouse}{fem}{}{DISNEY}
+
+% Data da defesa/qualificação/seminário de tese ({dia}{mês}{ano})
+\date{5}{3}{2015}
+
+% Número CDU (somente para TG)
+\cdu{621.38}
+
+% Glossário
+\makeglossary
+\frontmatter
+
+\begin{document}
+% Folha de Rosto e Capa para o caso do TG
+\maketitle
+
+% Dedicatória: Não esqueça essa seção  ... :-)
+\begin{itadedication}
+\input{Cap0/dedicatoria}
+\end{itadedication}
+
+% Agradecimentos
+\begin{itathanks}
+\input{Cap0/agradecimentos}
+\end{itathanks}
+
+% Epígrafe
+\thispagestyle{empty}
+\ifhyperref\pdfbookmark[0]{\nameepigraph}{epigrafe}\fi
+\begin{flushright}
+\begin{spacing}{1}
+\mbox{}\vfill
+{\sffamily\itshape
+``If I have seen farther than others,\\
+it is because I stood on the shoulders of giants.''\\}
+--- \textsc{Sir Isaac Newton}
+\end{spacing}
+\end{flushright}
+
+% Resumo
+\begin{abstract}
+\noindent
+\input{Cap0/resumo}
+\end{abstract}
+
+% Abstract
+\begin{englishabstract}
+\noindent
+\input{Cap0/abstract}
+\end{englishabstract}
+
+% Lista de figuras
+\listoffigures 						% Opcional
+
+% Lista de tabelas
+\listoftables 						% Opcional
+
+% Lista de abreviaturas
+\listofabbreviations
+\input{Cap0/listaabreviaturas} 		% Opcional
+
+% Lista de símbolos
+\listofsymbols
+\input{Cap0/listasimbolos} 			% Opcional
+
+% Sumário
+\tableofcontents
+
+\mainmatter
+% Os capítulos começam aqui
+
+\chapter{Introdução}
+\input{Cap1/cap1}
+
+\chapter{Modelagem Dinâmica de Cupins Cibernéticos}
+\input{Cap2/cap2}
+
+\chapter{Controle Robusto de Concretos Caóticos}
+\input{Cap3/cap3}
+
+\chapter{Conclusão}
+\input{Cap4/cap4}
+
+% REFERÊNCIAS BIBLIOGRÁFICAS
+\renewcommand\bibname{\itareferencesnamebabel} 		% renomear título do capítulo referências
+\bibliography{Referencias/referencias}
+
+% Apêndices
+\appendix
+\chapter{Tópicos de Dilema Linear} 					% Opcional
+\input{ApeA/apendiceA}
+
+% Anexos
+\annex
+\chapter{Exemplo de um Primeiro Anexo} 				% Opcional
+\input{AneA/anexoA}
+
+% Glossário
+% \itaglossary
+% \printglossary
+
+% Folha de Registro do Documento
+% Valores dos campos do formulário
+\FRDitadata{25}{03}{2015}							% Data da publicação no ITA ({dia}{mês}{ano}).
+\FRDitadocnro{DCTA/ITA/DM-018/2015} 				% Número de registro fornecido pela biblioteca
+\FRDitapalavrasautor{Cupim; Cimento; Estruturas}
+\FRDitapalavrasresult{Cupim; Dilema; Construção}
+\FRDitaresumo{\input{Cap0/resumo}}
+
+% Primeiro parâmetro: Nacional ou Internacional -- N/I
+% Segundo parâmetro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
+\FRDitaOpcoes{N}{O}
+
+% Cria o formulário
+\itaFRD
+
+\end{document}
+
+% Fim do Documento. O massacre acabou!!! :-)
