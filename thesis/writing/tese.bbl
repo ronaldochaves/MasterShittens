@@ -5,47 +5,4 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
-\bibitem[Assenmacher \textit{et al.} 1993]{Assenmacher1993}
-\abntrefinfo{Assenmacher \textit{et al.}}{ASSENMACHER \textit{et al.}}{1993}
-{ASSENMACHER, H.; BREITBACH, T.; BUHLER, P.; H{\"U}BSCH, V.; SCHWARZ, R.
-  {P}anda: supporting distributed programming in {L}++. In:  EUROPEAN
-  CONFERENCE ON OBJECT-ORIENTED PROGRAMMING, 7., 1993, Kaiserslautern.
-  \textbf{Proceedings...} Berlin: Springer, 1993. p. 361--383. (Lecture Notes
-  in Computer Science, v. 707).}
-
-\bibitem[Callaghan \textit{et al.} 1995]{Callaghan1995}
-\abntrefinfo{Callaghan \textit{et al.}}{CALLAGHAN \textit{et al.}}{1995}
-{CALLAGHAN, B.; PAWLOWSKI, B.; STAUBACH, P. \textbf{{NFS} version 3 protocol
-  specification}: {RFC} 1831.
-London, 1995. 68~p.}
-
-\bibitem[Caromel \textit{et al.} 1998]{Caromel1998}
-\abntrefinfo{Caromel \textit{et al.}}{CAROMEL \textit{et al.}}{1998}
-{CAROMEL, D.; KLAUSER, W.; VAYSSIERE, J. Towards seamless computing and
-  metacomputing in {J}ava.
-\textbf{Concurrency in Practice and Experience}, v.~10, n. 11--13, p.
-  1043--1061, set./nov. 1998.
-Dispon{\'\i}vel em:
-  \htmladdnormallink{$<$http:\-/\-/www-sop\-.inria\-.fr\-/{\textbackslash}\~{}{}sloop\-/javall\-/index\-.ht$>$}{http://www-sop.inria.fr/\~{}sloop/javall/index.ht}.
-  Acesso em: 20 fev. 2000.}
-
-\bibitem[Joea e John 2003]{Joea2003}
-\abntrefinfo{Joea e John}{JOEA; JOHN}{2003}
-{JOEA, J.~G.; JOHN, J.~G. Importance of coffee in computer sciences. In:
-  CONFERENCE ON COFFEE IMPORTANCE, 1., 2000, Java Island.
-  \textbf{Proceedings...} Java Island: Java Island Press, 2003. p. 99--100.}
-
-\bibitem[Sbornian 2004]{Sbornian2004}
-\abntrefinfo{Sbornian}{SBORNIAN}{2004}
-{SBORNIAN, W.
-\textbf{Um exemplo de tese de doutorado}.
-2004. 169~f. Tese (Doutorado em Aeron{\'a}utica) --- Instituto de Alguma Coisa,
-  Universidade Sei L{\'a} de Onde, Santo Ant{\^o}nio da Patrulha, 2004. 1
-  CD--ROM.}
-
-\bibitem[Silberschatz \textit{et al.} 1991]{Silberschatz1991}
-\abntrefinfo{Silberschatz \textit{et al.}}{SILBERSCHATZ \textit{et al.}}{1991}
-{SILBERSCHATZ, A.; PETERSON, J.~L.; GALVIN, P.~B. \textbf{Operating system
-  concepts}. 3rd. ed. New York: Springer, 1991.}
-
 \end{thebibliography}

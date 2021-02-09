@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1612846078 "cap2.tex" "cap2.pdf" "cap2" 1612846078
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1612540055 2432467 750c11ffc06148ceb9fb23355c8e56c2 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "cap2.aux" 1612846078 8 a94a2480d3289e625eea47cd1b285758 ""
+  "cap2.tex" 1612846070 566 65dddde945ace8c0219f5a81ef351194 ""
+  (generated)
+  "cap2.pdf"
+  "cap2.log"

@@ -398,13 +398,9 @@ INPUT Cap1/cap1.tex
 INPUT Cap1/cap1.tex
 INPUT Cap2/cap2.tex
 INPUT Cap2/cap2.tex
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ae/aeti10.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/ae/aeti10.vf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
-INPUT Cap2/spiderrobot.jpg
-INPUT ./Cap2/spiderrobot.jpg
-INPUT ./Cap2/spiderrobot.jpg
+INPUT Cap2/od_flowchart.png
+INPUT ./Cap2/od_flowchart.png
+INPUT ./Cap2/od_flowchart.png
 INPUT Cap3/cap3.tex
 INPUT Cap3/cap3.tex
 INPUT Cap4/cap4.tex
@@ -422,9 +418,6 @@ INPUT ./tese.brf
 OUTPUT tese.brf
 INPUT ApeA/apendiceA.tex
 INPUT ApeA/apendiceA.tex
-INPUT ApeA/pragas_ciclo_cupim.pdf
-INPUT ./ApeA/pragas_ciclo_cupim.pdf
-INPUT ./ApeA/pragas_ciclo_cupim.pdf
 INPUT AneA/anexoA.tex
 INPUT AneA/anexoA.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
@@ -455,6 +448,5 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb

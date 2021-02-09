@@ -11,6 +11,12 @@ A solution x(1) is said to dominate the other solution x(2) if both condition 1 
 -- Condition 2: x(1) is strictly better than x(2) in at least one objective
 - Elitist principle
 
+[ref] Optimization for Engineering Design Algorithms and Examples
+- With the advent of computers, optimization has become a part of computer-aided design activities
+- not only to achieve just a feasible design, but also a design objective
+- optimization algorithms begin with one or more design solutions supplied by the user and then iteratively check new design solutions in order to achieve the true optimum solution
+- The purpose of the formulation procedure is to create a mathematical model of the optimal design problem, which then can be solved using an optimization algorithm
+
 ***
 ## Turbine Design
 ### Partial admission

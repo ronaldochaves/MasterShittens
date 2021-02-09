@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.5)  5 FEB 2021 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.5)  9 FEB 2021 01:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,8 +804,7 @@ Package hyperref Info: Anchor `page.viii' on input line 151.
 Package hyperref Info: Anchor `chapter*.4' on input line 151.
 Package hyperref Info: Anchor `listafiguras.0' on input line 151.
  (./tese.lof
-Package hyperref Info: Reference (link) `figure.caption.10' on input line 4.
-Package hyperref Info: Reference (link) `figure.caption.12' on input line 8.
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 4.
 )
 \tf@lof=\write5
 \openout5 = `tese.lof'.
@@ -813,21 +812,17 @@ Package hyperref Info: Reference (link) `figure.caption.12' on input line 8.
 Package hyperref Info: Anchor `page.ix' on input line 154.
  [9
 
-Package `hyperref' Info: End of reference (link) `figure.caption.10', line 4.
-Package `hyperref' Info: End of reference (link) `figure.caption.12', line 8.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 4.
 ]
 Package hyperref Info: Anchor `chapter*.5' on input line 154.
 Package hyperref Info: Anchor `listatabelas.0' on input line 154.
- (./tese.lot
-Package hyperref Info: Reference (link) `table.caption.9' on input line 4.
-)
+ (./tese.lot)
 \tf@lot=\write6
 \openout6 = `tese.lot'.
 
 Package hyperref Info: Anchor `page.x' on input line 157.
 [10
 
-Package `hyperref' Info: End of reference (link) `table.caption.9', line 4.
 ]
 Package hyperref Info: Anchor `chapter*.6' on input line 157.
 Package hyperref Info: Anchor `listaabreviaturas.0' on input line 157.
@@ -874,39 +869,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
 
 Package hyperref Info: Reference (link) `chapter.2' on input line 6.
 Package hyperref Info: Reference (link) `section.2.1' on input line 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.3' on input line 8.
-Package hyperref Info: Reference (link) `section.3.1' on input line 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.4' on input line 10.
+Package hyperref Info: Reference (link) `section.2.2' on input line 8.
+Package hyperref Info: Reference (link) `subsection.2.2.1' on input line 9.
+Package hyperref Info: Reference (link) `section.2.3' on input line 10.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
  []  
  []
 
-Package hyperref Info: Reference (link) `chapter.5' on input line 11.
+Package hyperref Info: Reference (link) `chapter.3' on input line 11.
+Package hyperref Info: Reference (link) `section.3.1' on input line 12.
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
  []  
  []
 
-Package hyperref Info: Reference (link) `appendix.A' on input line 13.
-Package hyperref Info: Reference (link) `section.A.1' on input line 14.
+Package hyperref Info: Reference (link) `chapter.4' on input line 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+ []  
+ []
+
+Package hyperref Info: Reference (link) `chapter.5' on input line 14.
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--16
  []  
  []
 
-Package hyperref Info: Reference (link) `annex.a' on input line 16.
-Package hyperref Info: Reference (link) `section.a.1' on input line 17.
+Package hyperref Info: Reference (link) `appendix.A' on input line 16.
+Package hyperref Info: Reference (link) `section.A.1' on input line 17.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+ []  
+ []
+
+Package hyperref Info: Reference (link) `annex.a' on input line 19.
+Package hyperref Info: Reference (link) `section.a.1' on input line 20.
 )
 \tf@toc=\write9
 \openout9 = `tese.toc'.
@@ -920,14 +918,20 @@ Package `hyperref' Info: End of reference (link) `section.1.2', line 4.
 Package `hyperref' Info: End of reference (link) `section.1.3', line 5.
 Package `hyperref' Info: End of reference (link) `chapter.2', line 6.
 Package `hyperref' Info: End of reference (link) `section.2.1', line 7.
-Package `hyperref' Info: End of reference (link) `chapter.3', line 8.
-Package `hyperref' Info: End of reference (link) `section.3.1', line 9.
-Package `hyperref' Info: End of reference (link) `chapter.4', line 10.
-Package `hyperref' Info: End of reference (link) `chapter.5', line 11.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 13.
-Package `hyperref' Info: End of reference (link) `section.A.1', line 14.
-Package `hyperref' Info: End of reference (link) `annex.a', line 16.
-Package `hyperref' Info: End of reference (link) `section.a.1', line 17.
+Package `hyperref' Info: End of reference (link) `section.2.2', line 8.
+Package `hyperref' Info: End of reference (link) `subsection.2.2.1', line 9.
+Package `hyperref' Info: End of reference (link) `section.2.3', line 10.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 11.
+Package `hyperref' Info: End of reference (link) `section.3.1', line 12.
+Package `hyperref' Info: End of reference (link) `chapter.4', line 13.
+Package `hyperref' Info: End of reference (link) `chapter.5', line 14.
+Package `hyperref' Info: End of reference (link) `appendix.A', line 16.
+Package `hyperref' Info: End of reference (link) `section.A.1', line 17.
+Package `hyperref' Info: End of reference (link) `annex.a', line 19.
+]
+Package hyperref Info: Anchor `page.xiv' on input line 167.
+ [14
+Package `hyperref' Info: End of reference (link) `section.a.1', line 20.
 ]
 Package hyperref Info: Anchor `chapter.1' on input line 170.
 
@@ -945,82 +949,50 @@ pdftex: bookmark at 4: {1.2} {\numberline{1.2}Motiva\c c\~ao} {section.1.2} {1}
 Package hyperref Info: Anchor `section.1.3' on input line 8.
 pdftex: bookmark at 8: {1.3} {\numberline{1.3}Organiza\c c\~ao do trabalho} {se
 ction.1.3} {1} {toc} 
-Package hyperref Info: Anchor `page.14' on input line 12.
-[14
+Package hyperref Info: Anchor `page.15' on input line 12.
+[15
 
 
 ])
-Package hyperref Info: Anchor `page.15' on input line 173.
- [15]
+Package hyperref Info: Anchor `page.16' on input line 173.
+ [16]
 Package hyperref Info: Anchor `chapter.2' on input line 173.
 
 Cap\'{\i }tulo 2.
-pdftex: bookmark at 173: {2} {\numberline{2}Modelagem Din\^amica de Cupins Cibe
-rn\'eticos} {chapter.2} {0} {toc} 
+pdftex: bookmark at 173: {2} {\numberline{2}Revis\~ao da Literatura} {chapter.2
+} {0} {toc} 
 (./Cap2/cap2.tex
 Package hyperref Info: Anchor `section.2.1' on input line 1.
 
-pdftex: bookmark at 1: {2.1} {\numberline{2.1}Modelagem no espa\c co das juntas
-} {section.2.1} {1} {toc} 
-Package hyperref Info: Reference (cite) `cite.Sbornian2004' on input line 2.
-Package hyperref Info: Reference (cite) `cite.Sbornian2004' on input line 2.
-Package hyperref Info: Reference (cite) `cite.Joea2003' on input line 3.
-Package hyperref Info: Reference (cite) `cite.Joea2003' on input line 3.
-Package hyperref Info: Reference (link) `table.caption.9' on input line 3.
-Package hyperref Info: Reference (cite) `cite.Assenmacher1993' on input line 3.
+pdftex: bookmark at 1: {2.1} {\numberline{2.1}Turbinas} {section.2.1} {1} {toc}
+ 
+Package hyperref Info: Anchor `section.2.2' on input line 3.
+pdftex: bookmark at 3: {2.2} {\numberline{2.2}Algoritmo Gen\'etico} {section.2.
+2} {1} {toc} 
+Package hyperref Info: Anchor `subsection.2.2.1' on input line 4.
+pdftex: bookmark at 4: {2.2.1} {\numberline{2.2.1}NSGA-II} {subsection.2.2.1} {
+2} {toc} 
+Package hyperref Info: Anchor `section.2.3' on input line 6.
+pdftex: bookmark at 6: {2.3} {\numberline{2.3}Otimiza\c c\~ao} {section.2.3} {1
+} {toc} 
+Package hyperref Info: Anchor `figure.caption.9' on input line 11.
+<Cap2/od_flowchart.png, id=236, 643.40375pt x 635.37375pt>
+File: Cap2/od_flowchart.png Graphic file (type png)
+<use Cap2/od_flowchart.png>
+Package pdftex.def Info: Cap2/od_flowchart.png  used on input line 13.
+(pdftex.def)             Requested size: 227.62206pt x 224.77881pt.
+pdftex: bookmark at 14: {2.1} {\numberline{2.1}{\ignorespaces Fluxograma do pro
+cesso de design \'otimo.\relax }} {figure.caption.9} {0} {lof} 
 
-Package hyperref Info: Reference (cite) `cite.Assenmacher1993' on input line 3.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package hyperref Info: Reference (cite) `cite.Silberschatz1991' on input line 3
-.
-Package hyperref Info: Reference (cite) `cite.Silberschatz1991' on input line 3
-.
-Package hyperref Info: Reference (cite) `cite.Caromel1998' on input line 3.
-Package hyperref Info: Reference (cite) `cite.Caromel1998' on input line 3.
-Package hyperref Info: Anchor `table.caption.9' on input line 6.
-pdftex: bookmark at 6: {2.1} {\numberline{2.1}{\ignorespaces Exemplo de uma Tab
-ela\relax }} {table.caption.9} {0} {lot} 
-Package hyperref Info: Reference (cite) `cite.Callaghan1995' on input line 22.
-Package hyperref Info: Reference (cite) `cite.Callaghan1995' on input line 22.
-Package hyperref Info: Anchor `page.16' on input line 23.
-[16
-
-Package `hyperref' Info: End of reference (cite) `cite.Sbornian2004', line 2.
-Package `hyperref' Info: End of reference (cite) `cite.Sbornian2004', line 2.
-Package `hyperref' Info: End of reference (cite) `cite.Joea2003', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Joea2003', line 3.
-Package `hyperref' Info: End of reference (link) `table.caption.9', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Assenmacher1993', line 3
-.
-Package `hyperref' Info: End of reference (cite) `cite.Assenmacher1993', line 3
-.
-Package `hyperref' Info: End of reference (cite) `cite.Silberschatz1991', line 
-3.
-Package `hyperref' Info: End of reference (cite) `cite.Silberschatz1991', line 
-3.
-Package `hyperref' Info: End of reference (cite) `cite.Caromel1998', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Caromel1998', line 3.
-]
-Package hyperref Info: Anchor `figure.caption.10' on input line 24.
-<Cap2/spiderrobot.jpg, id=246, 614.295pt x 462.22687pt>
-File: Cap2/spiderrobot.jpg Graphic file (type jpg)
-<use Cap2/spiderrobot.jpg>
-Package pdftex.def Info: Cap2/spiderrobot.jpg  used on input line 26.
-(pdftex.def)             Requested size: 341.43307pt x 256.91275pt.
-
-pdftex: bookmark at 27: {2.1} {\numberline{2.1}{\ignorespaces Cupim cibern\'eti
-co.\relax }} {figure.caption.10} {0} {lof} 
-Package hyperref Info: Anchor `equation.2.1.1' on input line 32.
-Package hyperref Info: Anchor `equation.2.1.2' on input line 36.
-Package hyperref Info: Anchor `equation.2.1.3' on input line 41.
 )
 Package hyperref Info: Anchor `page.17' on input line 176.
  [17
-Package `hyperref' Info: End of reference (cite) `cite.Callaghan1995', line 22.
 
-Package `hyperref' Info: End of reference (cite) `cite.Callaghan1995', line 22.
-
- <./Cap2/spiderrobot.jpg>]
+]
+Package hyperref Info: Anchor `page.18' on input line 176.
+ [18 <./Cap2/od_flowchart.png>]
 Package hyperref Info: Anchor `chapter.3' on input line 176.
 
 Cap\'{\i }tulo 3.
@@ -1037,8 +1009,8 @@ Package hyperref Info: Anchor `equation.3.1.2' on input line 10.
 Package hyperref Info: Reference (link) `equation.3.1.2' on input line 14.
 Package hyperref Info: Anchor `equation.3.1.3' on input line 15.
 )
-Package hyperref Info: Anchor `page.18' on input line 179.
- [18
+Package hyperref Info: Anchor `page.19' on input line 179.
+ [19
 
 Package `hyperref' Info: End of reference (link) `equation.3.1.1', line 2.
 Package `hyperref' Info: End of reference (link) `equation.3.1.2', line 14.
@@ -1049,30 +1021,23 @@ Cap\'{\i }tulo 4.
 pdftex: bookmark at 179: {4} {\numberline{4}Conclus\~ao} {chapter.4} {0} {toc} 
 
 (./Cap4/cap4.tex)
-Package hyperref Info: Anchor `page.19' on input line 181.
- [19
+Package hyperref Info: Anchor `page.20' on input line 181.
+ [20
 
 ] (./tese.bbl (./tese.brf)
 \tf@brf=\write10
 \openout10 = `tese.brf'.
 
-Package hyperref Info: Anchor `page.20' on input line 3.
- [20]
-Package hyperref Info: Anchor `chapter*.11' on input line 3.
+Package hyperref Info: Anchor `page.21' on input line 3.
+ [21]
+Package hyperref Info: Anchor `chapter*.10' on input line 3.
 Package hyperref Info: Anchor `chapter.5' on input line 3.
 
 pdftex: bookmark at 3: {5} {Refer\^encias} {chapter.5} {0} {toc} 
-Package hyperref Info: Anchor `cite.Assenmacher1993' on input line 15.
-Package hyperref Info: Anchor `cite.Callaghan1995' on input line 21.
-Package hyperref Info: Anchor `cite.Caromel1998' on input line 31.
-Package hyperref Info: Anchor `cite.Joea2003' on input line 37.
-Package hyperref Info: Anchor `cite.Sbornian2004' on input line 45.
-Package hyperref Info: Anchor `cite.Silberschatz1991' on input line 50.
 )
-Package hyperref Info: Anchor `page.21' on input line 187.
- [21
+Package hyperref Info: Anchor `page.22' on input line 187.
+ [22
 
-Package `hyperref' Info: End of reference (link) `equation.3.1.2', line 14.
 ]
 Package hyperref Info: Anchor `appendix.A' on input line 188.
 
@@ -1085,20 +1050,12 @@ Package hyperref Info: Anchor `section.A.1' on input line 1.
 pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap
 \^endice} {section.A.1} {1} {toc} 
 Package hyperref Info: Anchor `equation.A.1.1' on input line 6.
-Package hyperref Info: Anchor `figure.caption.12' on input line 14.
-<ApeA/pragas_ciclo_cupim.pdf, id=282, 401.5pt x 403.5075pt>
-File: ApeA/pragas_ciclo_cupim.pdf Graphic file (type pdf)
-<use ApeA/pragas_ciclo_cupim.pdf>
-Package pdftex.def Info: ApeA/pragas_ciclo_cupim.pdf  used on input line 16.
-(pdftex.def)             Requested size: 142.26698pt x 142.26411pt.
-pdftex: bookmark at 17: {A.1} {\numberline{A.1}{\ignorespaces Uma figura que es
-t\'a no ap\^endice.\relax }} {figure.caption.12} {0} {lof} 
 )
-Package hyperref Info: Anchor `page.22' on input line 192.
- [22
+Package hyperref Info: Anchor `page.23' on input line 192.
+ [23
 
 
- <./ApeA/pragas_ciclo_cupim.pdf>]
+]
 Package hyperref Info: Anchor `annex.a' on input line 193.
 
 Anexo A.
@@ -1110,8 +1067,8 @@ Package hyperref Info: Anchor `section.a.1' on input line 2.
 pdftex: bookmark at 2: {A.1} {\numberline{A.1}Uma Se\c c\~ao do Primeiro Anexo}
  {section.a.1} {1} {toc} 
 )
-Package hyperref Info: Anchor `page.23' on input line 213.
- [23
+Package hyperref Info: Anchor `page.24' on input line 213.
+ [24
 
 
 ]
@@ -1125,8 +1082,8 @@ Overfull \hbox (74.53033pt too wide) in paragraph at lines 213--214
 
 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.24' on input line 215.
-[24
+Package hyperref Info: Anchor `page.25' on input line 215.
+[25
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
@@ -1135,23 +1092,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 88AFE38467CB59B55F29729FCFF32136;1707.
+(rerunfilecheck)             Checksum: 310F5FF0AE10695AF9611095B3367F73;1862.
 Package rerunfilecheck Info: File `tese.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 14972 strings out of 480608
- 255105 string characters out of 5903631
- 551688 words of memory out of 5000000
- 30290 multiletter control sequences out of 15000+600000
- 587872 words of font info for 118 fonts, out of 8000000 for 9000
+ 14904 strings out of 480608
+ 253911 string characters out of 5903631
+ 550348 words of memory out of 5000000
+ 30234 multiletter control sequences out of 15000+600000
+ 585388 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,79p,1081b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -1170,13 +1124,12 @@ ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
-0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/
-texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on tese.pdf (24 pages, 407914 bytes).
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020
+/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
+Output written on tese.pdf (25 pages, 322658 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 366 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
