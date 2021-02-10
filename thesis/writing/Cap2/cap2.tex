@@ -8,9 +8,23 @@
 
 Procedimento de formulação do problema tem o propósito de criar um modelo matemático do problema de design ótimo, a fim de que possa ser solucionado usando um algoritmo de otimização.
 
+Inicialmente, deve-se perceber a necessidade de usar uma otimização nesse problema específico de projeto. Posto isso, deve-se escolher as variáveis de projeto associadas ao proble de projeto da Turbina. Em seguida, envolver outras considerações como restrições, função objetivo e intervalo das variáveis. A figura \ref{fig:od_flowchart} traz um fluxograma típico para boa definição de um problema de otimização. Uma vez definido e declarado o problema, escolhe-se qual algoritmo de otimização será usado.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\textwidth]{Cap2/od_flowchart.png}
     \caption{Fluxograma do processo de design ótimo.}
-    \label{fig:optimal_design_flowchart}
+    \label{fig:od_flowchart}
 \end{figure}
+
+\subsection{Variáveis de Projeto}
+Sensibilidade de variáveis de projeto: O quão `importante' é uma variável com relação a uma função objetivo. É possível que a mesma variável seja mais sensível em um aspecto do que em outro.
+
+\subsection{Função Objetivo}
+É interessante evitar, por questão de simplificação do processo computacional, o problema de otimização com várias funções objetivos. Usualmente, escolhe-se a principal delas como função objetivo e modifica-se as outras em formas de restrições do problema, deixando elas em certo um intervalo.
+
+\subsection{Restrições}
+
+\subsection{Limites das Variáveis de Projeto}
+Usa-se uma primeiro chute dos limites das variáveis, considerando que a solução ótima está dentro desse intervalo. Em seguida, analisa-se o resultado da primeira simulação do algoritmo de otimização. A partir daí, faz-se os ajustes necessários no intervalo.
+

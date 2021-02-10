@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.5)  9 FEB 2021 01:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.5)  9 FEB 2021 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,13 +975,14 @@ pdftex: bookmark at 4: {2.2.1} {\numberline{2.2.1}NSGA-II} {subsection.2.2.1} {
 Package hyperref Info: Anchor `section.2.3' on input line 6.
 pdftex: bookmark at 6: {2.3} {\numberline{2.3}Otimiza\c c\~ao} {section.2.3} {1
 } {toc} 
-Package hyperref Info: Anchor `figure.caption.9' on input line 11.
-<Cap2/od_flowchart.png, id=236, 643.40375pt x 635.37375pt>
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 11.
+Package hyperref Info: Anchor `figure.caption.9' on input line 13.
+<Cap2/od_flowchart.png, id=237, 643.40375pt x 635.37375pt>
 File: Cap2/od_flowchart.png Graphic file (type png)
 <use Cap2/od_flowchart.png>
-Package pdftex.def Info: Cap2/od_flowchart.png  used on input line 13.
-(pdftex.def)             Requested size: 227.62206pt x 224.77881pt.
-pdftex: bookmark at 14: {2.1} {\numberline{2.1}{\ignorespaces Fluxograma do pro
+Package pdftex.def Info: Cap2/od_flowchart.png  used on input line 15.
+(pdftex.def)             Requested size: 341.43307pt x 337.18275pt.
+pdftex: bookmark at 16: {2.1} {\numberline{2.1}{\ignorespaces Fluxograma do pro
 cesso de design \'otimo.\relax }} {figure.caption.9} {0} {lof} 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -990,6 +991,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package hyperref Info: Anchor `page.17' on input line 176.
  [17
 
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 11.
 ]
 Package hyperref Info: Anchor `page.18' on input line 176.
  [18 <./Cap2/od_flowchart.png>]
@@ -1102,7 +1104,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  14904 strings out of 480608
- 253911 string characters out of 5903631
+ 253899 string characters out of 5903631
  550348 words of memory out of 5000000
  30234 multiletter control sequences out of 15000+600000
  585388 words of font info for 115 fonts, out of 8000000 for 9000
@@ -1126,10 +1128,10 @@ ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020
 /texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on tese.pdf (25 pages, 322658 bytes).
+Output written on tese.pdf (25 pages, 323128 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
+ 367 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
  73 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
