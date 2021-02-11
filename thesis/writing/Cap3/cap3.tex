@@ -1,17 +1,4 @@
-\section{Controle combinado}
-Conforme vimos na seção \ref{ectq3} podemos controlar um sistema nao linear como  através da técnica do torque computado, usando um controlador PD dado por:
-\begin{equation} \label{ectq3}
-\tau'=\ddot{q}_d+K_v(\dot{q}_d-\dot{q})+K_p(q_d-q) \; ,
-\end{equation}
-sendo $q_{d}$, $\dot{q}_{d}$ e $\ddot{q}_{d}$ a posição desejada, a velocidade desejada e a aceleração desejada; $K_p$
-e $K_v$ são matrizes diagonais $n \times n$, sendo que cada elemento da diagonal é um ganho positivo e escalar.
+\section{Definição do problema}
+A tarefa de otimização será cumprida com o uso de algoritmos genéticos, enquanto que o projeto preliminar da turbina será simplificado e uni-dimensional.
 
-Aqui $M_{est}$ e $b_{est}$ são modelos estimados da matriz de inércia, $M$, e do vetor de torques não inerciais, $b$, do robô real,  respectivamente. A equação de malha fechada do sistema é:
-\begin{equation} \label{ectq4}
-\ddot{e}+K_v\dot{e}+K_pe=M_{est}^{-1}[(M-M_{est})\ddot{q}+(b-b_{est})] \; .
-\end{equation}
-
-Em um manipulador real, podem existir distúrbios externos tais como atrito, variação de torque dos atuadores, e perturbações em virtude  das cargas no robô. Se a soma destes distúrbios for definida como $d_{ext}$ e adicionada à (\ref{ectq4}), teremos
-\begin{equation} \label{ectq5}
-\ddot{e}+K_v\dot{e}+K_pe=M_{est}^{-1}[(M-M_{est})\ddot{q}+(b-b_{est})+d_{ext}] \; .
-\end{equation}
+Pretende-se utilizar um estudo de caso mais simples com o objetivo de entender o funcionamento da ferramenta de otimização e familiarização do método. Tal exemplo base pode ser feito considerando apenas uma variável de projeto. Após essa fase, o processo formulado como um todo deverá ser resolvido. Pretende-se limitar a quantidade de variáveis de projeto para 3, sendo estas facilmente adimensionalizadas para fim de comparação.

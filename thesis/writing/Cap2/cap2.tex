@@ -1,6 +1,13 @@
 \section{Turbinas}
+Uma modelagem simplificada e uni-dimensional para projetos de turbomáquinas pode produzir informações qualitativas de grande valor aos projetistas nas fases iniciais de desenvolvimento. Como exemplo, tendências específicas sobre o desempenho e funcionamento de uma turbina facilita a determinação da geometria básica da máquina (dimensões e formas), com baixo uso de recursos temporais e computacionais.
+
+A primeira etapa é uma análise criteriosa dos requisitos e parâmetros do projeto. A ánalise do ciclo do motor vai fornecer informações como condições de entrada, razão de pressão, vazão e rotação.
+
+\subsection{Modelos de Perdas}
 
 \section{Algoritmo Genético}
+De acordo com a [ref] Optimization for Engineering Design Algorithms and Examples, Algoritmos Genéticos (AG, daqui em diante) permitem uma maneira fácil de encontrar múltiplas soluções ótimas simultaneamente em uma única rodada de simulação. Em se tratando de problemas de otimização multiobjetivo, surge um conjunto de soluções ótimas conhecida como Soluções Ótimas de Pareto ou Fronteira de Pareto. Também, AG demonstra um maneira de lidar com múltiplos objetivos e ajuda a encontrar multiplas soluções ótimas de Pareto simultaneamente.
+
 \subsection{NSGA-II}
 
 \section{Otimização}
@@ -8,7 +15,7 @@
 
 Procedimento de formulação do problema tem o propósito de criar um modelo matemático do problema de design ótimo, a fim de que possa ser solucionado usando um algoritmo de otimização.
 
-Inicialmente, deve-se perceber a necessidade de usar uma otimização nesse problema específico de projeto. Posto isso, deve-se escolher as variáveis de projeto associadas ao proble de projeto da Turbina. Em seguida, envolver outras considerações como restrições, função objetivo e intervalo das variáveis. A figura \ref{fig:od_flowchart} traz um fluxograma típico para boa definição de um problema de otimização. Uma vez definido e declarado o problema, escolhe-se qual algoritmo de otimização será usado.
+Inicialmente, deve-se perceber a necessidade de usar uma otimização nesse problema específico de projeto. Posto isso, deve-se escolher as variáveis de projeto associadas ao problema de projeto da Turbina. Em seguida, envolver outras considerações como restrições, função objetivo e intervalo das variáveis. A figura \ref{fig:od_flowchart} traz um fluxograma típico para boa definição de um problema de otimização. Uma vez definido e declarado o problema, escolhe-se qual algoritmo de otimização será usado.
 
 \begin{figure}[h]
     \centering
@@ -27,4 +34,14 @@ Sensibilidade de variáveis de projeto: O quão `importante' é uma variável com re
 
 \subsection{Limites das Variáveis de Projeto}
 Usa-se uma primeiro chute dos limites das variáveis, considerando que a solução ótima está dentro desse intervalo. Em seguida, analisa-se o resultado da primeira simulação do algoritmo de otimização. A partir daí, faz-se os ajustes necessários no intervalo.
+
+\subsection{Modelagem}
+Normalmente, a modelagem matemática do problema de otimização não é facilmente atingível. Uma aternativa é fazer uma modificação nas equações governantes, principalmente quando se possui valores experimentais e observáveis do sistema. Assim, a formulação vai levar em consideração valores simulados \textit{versus} valores observados, onde cria-se variáveis de projeto de maneira auxiliar (espaço de busca $\beta$, nesse caso), sendo a função objetivo $f(\beta)$ da equação \ref{eq:reformulation}, a qual deve ser minimizada. Tal processo tem muita similaridade com a metodologia de regressão linear, onde $f$ representa o erro.
+
+\begin{equation}
+f(\beta) = \left(E_{observado} - E_{simulado}\right)^2
+\label{eq:reformulation}
+\end{equation}
+
+De acordo com [ref] Optimization for Engineering Design Algorithms and Examples, a inclusão de variáveis de projeto artificais frequentemente com que o entendimento do problema seja simplificado, incluindo sua modelagem matemática.
 

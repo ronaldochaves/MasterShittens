@@ -19,6 +19,8 @@ A solution x(1) is said to dominate the other solution x(2) if both condition 1 
 - optimization algorithms are routinely used in aerospace design activities to minimize the overall weight, simply because every element or component adds to the overall weight of the aircraft
 - a naive optimal design is achieved by comparing a few (limited up to ten or so) alternative design solutions created by using a priori problem knowledge
 - efficiency and speed of optimization algorithms depend, to a large extent, on the number of chosen design variables
+- Multiobjective optimization problems give rise to a set of optimal solutions known as Pareto-optimal solutions
+- demonstrate one way to handle multiple objectives and help find multiple Pareto-optimal solutions simultaneously
 
 ***
 ## Turbine Design

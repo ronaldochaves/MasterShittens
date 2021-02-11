@@ -2,19 +2,26 @@
  \contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{15}{chapter.1} 
  \contentsline {section}{\numberline {1.1}Objetivo}{15}{section.1.1} 
  \contentsline {section}{\numberline {1.2}Motiva\c c\~ao}{15}{section.1.2} 
- \contentsline {section}{\numberline {1.3}Organiza\c c\~ao do trabalho}{15}{section.1.3} 
+ \contentsline {section}{\numberline {1.3}Organiza\c c\~ao do trabalho}{16}{section.1.3} 
  \contentsline {chapter}{\numberline {2}Revis\~ao da Literatura}{17}{chapter.2} 
  \contentsline {section}{\numberline {2.1}Turbinas}{17}{section.2.1} 
+ \contentsline {subsection}{\numberline {2.1.1}Modelos de Perdas}{17}{subsection.2.1.1} 
  \contentsline {section}{\numberline {2.2}Algoritmo Gen\'etico}{17}{section.2.2} 
- \contentsline {subsection}{\numberline {2.2.1}NSGA-II}{17}{subsection.2.2.1} 
- \contentsline {section}{\numberline {2.3}Otimiza\c c\~ao}{17}{section.2.3} 
- \contentsline {chapter}{\numberline {3}Controle Robusto de Concretos Ca\'oticos}{19}{chapter.3} 
- \contentsline {section}{\numberline {3.1}Controle combinado}{19}{section.3.1} 
- \contentsline {chapter}{\numberline {4}Conclus\~ao}{20}{chapter.4} 
- \contentsline {chapter}{Refer\^encias}{22}{chapter.5} 
+ \contentsline {subsection}{\numberline {2.2.1}NSGA-II}{18}{subsection.2.2.1} 
+ \contentsline {section}{\numberline {2.3}Otimiza\c c\~ao}{18}{section.2.3} 
+ \contentsline {subsection}{\numberline {2.3.1}Vari\'aveis de Projeto}{18}{subsection.2.3.1} 
+ \contentsline {subsection}{\numberline {2.3.2}Fun\c c\~ao Objetivo}{18}{subsection.2.3.2} 
+ \contentsline {subsection}{\numberline {2.3.3}Restri\c c\~oes}{19}{subsection.2.3.3} 
+ \contentsline {subsection}{\numberline {2.3.4}Limites das Vari\'aveis de Projeto}{19}{subsection.2.3.4} 
+ \contentsline {subsection}{\numberline {2.3.5}Modelagem}{19}{subsection.2.3.5} 
+ \contentsline {chapter}{\numberline {3}Metodologia}{21}{chapter.3} 
+ \contentsline {section}{\numberline {3.1}Defini\c c\~ao do problema}{21}{section.3.1} 
+ \contentsline {chapter}{\numberline {4}Discuss\~ao de Resultados}{22}{chapter.4} 
+ \contentsline {chapter}{\numberline {5}Conclus\~ao}{23}{chapter.5} 
+ \contentsline {chapter}{Refer\^encias}{24}{chapter.6} 
  \SetAppendixTocName {Ap\^endice} 
- \contentsline {chapter}{\numberline {A}T\'opicos de Dilema Linear}{23}{appendix.A} 
- \contentsline {section}{\numberline {A.1}Uma Primeira Se\c c\~ao para o Ap\^endice}{23}{section.A.1} 
+ \contentsline {chapter}{\numberline {A}T\'opicos de Dilema Linear}{25}{appendix.A} 
+ \contentsline {section}{\numberline {A.1}Uma Primeira Se\c c\~ao para o Ap\^endice}{25}{section.A.1} 
 \SetAppendixTocName {Anexo}
- \contentsline {chapter}{\numberline {A}Exemplo de um Primeiro Anexo}{24}{annex.a} 
- \contentsline {section}{\numberline {A.1}Uma Se\c c\~ao do Primeiro Anexo}{24}{section.a.1} 
+ \contentsline {chapter}{\numberline {A}Exemplo de um Primeiro Anexo}{26}{annex.a} 
+ \contentsline {section}{\numberline {A.1}Uma Se\c c\~ao do Primeiro Anexo}{26}{section.a.1} 
