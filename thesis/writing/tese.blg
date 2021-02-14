@@ -12,6 +12,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: Referencias/referencias.bib
+Warning--entry type for "Leach1983" isn't style-file defined
+--line 72 of file Referencias/referencias.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -22,44 +24,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 5 entries,
+You've used 38 entries,
             6480 wiz_defined-function locations,
-            1162 strings with 9228 characters,
-and the built_in function-call counts, 1993 in all, are:
-= -- 245
-> -- 3
-< -- 3
-+ -- 51
-- -- 3
-* -- 73
-:= -- 261
-add.period$ -- 0
-call.type$ -- 7
-change.case$ -- 15
-chr.to.int$ -- 13
-cite$ -- 0
-duplicate$ -- 23
-empty$ -- 246
-format.name$ -- 0
-if$ -- 540
+            1397 strings with 16611 characters,
+and the built_in function-call counts, 55216 in all, are:
+= -- 7461
+> -- 1051
+< -- 915
++ -- 1327
+- -- 317
+* -- 2963
+:= -- 5546
+add.period$ -- 135
+call.type$ -- 40
+change.case$ -- 373
+chr.to.int$ -- 79
+cite$ -- 33
+duplicate$ -- 6395
+empty$ -- 2184
+format.name$ -- 1560
+if$ -- 12083
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 52
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 44
+missing$ -- 642
+newline$ -- 174
+num.names$ -- 165
+pop$ -- 902
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 146
 quote$ -- 0
-skip$ -- 299
+skip$ -- 6713
 stack$ -- 1
-substring$ -- 70
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 1678
+swap$ -- 1460
+text.length$ -- 52
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 26
 warning$ -- 0
-while$ -- 2
+while$ -- 232
 width$ -- 0
-write$ -- 8
+write$ -- 555
+(There was 1 warning)

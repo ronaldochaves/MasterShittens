@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.5)  11 FEB 2021 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.5)  13 FEB 2021 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -871,13 +871,13 @@ Package hyperref Info: Reference (link) `chapter.2' on input line 6.
 Package hyperref Info: Reference (link) `section.2.1' on input line 7.
 Package hyperref Info: Reference (link) `subsection.2.1.1' on input line 8.
 Package hyperref Info: Reference (link) `section.2.2' on input line 9.
-Package hyperref Info: Reference (link) `subsection.2.2.1' on input line 10.
-Package hyperref Info: Reference (link) `section.2.3' on input line 11.
-Package hyperref Info: Reference (link) `subsection.2.3.1' on input line 12.
-Package hyperref Info: Reference (link) `subsection.2.3.2' on input line 13.
-Package hyperref Info: Reference (link) `subsection.2.3.3' on input line 14.
-Package hyperref Info: Reference (link) `subsection.2.3.4' on input line 15.
-Package hyperref Info: Reference (link) `subsection.2.3.5' on input line 16.
+Package hyperref Info: Reference (link) `section.2.3' on input line 10.
+Package hyperref Info: Reference (link) `subsection.2.3.1' on input line 11.
+Package hyperref Info: Reference (link) `subsection.2.3.2' on input line 12.
+Package hyperref Info: Reference (link) `subsection.2.3.3' on input line 13.
+Package hyperref Info: Reference (link) `subsection.2.3.4' on input line 14.
+Package hyperref Info: Reference (link) `subsection.2.3.5' on input line 15.
+Package hyperref Info: Reference (link) `subsection.2.3.6' on input line 16.
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
  []  
@@ -907,13 +907,13 @@ Package `hyperref' Info: End of reference (link) `chapter.2', line 6.
 Package `hyperref' Info: End of reference (link) `section.2.1', line 7.
 Package `hyperref' Info: End of reference (link) `subsection.2.1.1', line 8.
 Package `hyperref' Info: End of reference (link) `section.2.2', line 9.
-Package `hyperref' Info: End of reference (link) `subsection.2.2.1', line 10.
-Package `hyperref' Info: End of reference (link) `section.2.3', line 11.
-Package `hyperref' Info: End of reference (link) `subsection.2.3.1', line 12.
-Package `hyperref' Info: End of reference (link) `subsection.2.3.2', line 13.
-Package `hyperref' Info: End of reference (link) `subsection.2.3.3', line 14.
-Package `hyperref' Info: End of reference (link) `subsection.2.3.4', line 15.
-Package `hyperref' Info: End of reference (link) `subsection.2.3.5', line 16.
+Package `hyperref' Info: End of reference (link) `section.2.3', line 10.
+Package `hyperref' Info: End of reference (link) `subsection.2.3.1', line 11.
+Package `hyperref' Info: End of reference (link) `subsection.2.3.2', line 12.
+Package `hyperref' Info: End of reference (link) `subsection.2.3.3', line 13.
+Package `hyperref' Info: End of reference (link) `subsection.2.3.4', line 14.
+Package `hyperref' Info: End of reference (link) `subsection.2.3.5', line 15.
+Package `hyperref' Info: End of reference (link) `subsection.2.3.6', line 16.
 Package `hyperref' Info: End of reference (link) `chapter.3', line 17.
 Package `hyperref' Info: End of reference (link) `section.3.1', line 18.
 Package `hyperref' Info: End of reference (link) `chapter.4', line 19.
@@ -985,63 +985,280 @@ Package hyperref Info: Anchor `section.2.1' on input line 1.
 
 pdftex: bookmark at 1: {2.1} {\numberline{2.1}Turbinas} {section.2.1} {1} {toc}
  
-Package hyperref Info: Anchor `subsection.2.1.1' on input line 6.
-pdftex: bookmark at 6: {2.1.1} {\numberline{2.1.1}Modelos de Perdas} {subsectio
-n.2.1.1} {2} {toc} 
-Package hyperref Info: Anchor `section.2.2' on input line 8.
-pdftex: bookmark at 8: {2.2} {\numberline{2.2}Algoritmo Gen\'etico} {section.2.
-2} {1} {toc} 
-Package hyperref Info: Anchor `page.17' on input line 11.
+Package hyperref Info: Anchor `Item.1' on input line 8.
+Package hyperref Info: Reference (cite) `cite.Saravanamuttoo2017' on input line
+ 8.
+Package hyperref Info: Reference (cite) `cite.Saravanamuttoo2017' on input line
+ 8.
+Package hyperref Info: Anchor `Item.2' on input line 9.
+Package hyperref Info: Anchor `Item.3' on input line 10.
+Package hyperref Info: Reference (cite) `cite.IgorGeorge2020' on input line 10.
+
+Package hyperref Info: Reference (cite) `cite.IgorGeorge2020' on input line 10.
+
+Package hyperref Info: Anchor `Item.4' on input line 11.
+Package hyperref Info: Reference (cite) `cite.Schobeiri2018' on input line 11.
+Package hyperref Info: Reference (cite) `cite.Schobeiri2018' on input line 11.
+Package hyperref Info: Anchor `Item.5' on input line 12.
+Package hyperref Info: Reference (cite) `cite.Denton1993' on input line 12.
+Package hyperref Info: Reference (cite) `cite.Denton1993' on input line 12.
+Package hyperref Info: Anchor `Item.6' on input line 13.
+Package hyperref Info: Reference (cite) `cite.Maia2019' on input line 13.
+Package hyperref Info: Reference (cite) `cite.Maia2019' on input line 13.
+Package hyperref Info: Anchor `Item.7' on input line 14.
+Package hyperref Info: Reference (cite) `cite.Denton1998' on input line 14.
+Package hyperref Info: Reference (cite) `cite.Denton1998' on input line 14.
+Package hyperref Info: Anchor `Item.8' on input line 15.
+Package hyperref Info: Reference (cite) `cite.Craig1970' on input line 15.
+Package hyperref Info: Reference (cite) `cite.Craig1970' on input line 15.
+Package hyperref Info: Anchor `page.17' on input line 16.
 [17
 
-]
-Package hyperref Info: Anchor `subsection.2.2.1' on input line 11.
+Package `hyperref' Info: End of reference (cite) `cite.Saravanamuttoo2017', lin
+e 8.
+Package `hyperref' Info: End of reference (cite) `cite.Saravanamuttoo2017', lin
+e 8.
+Package `hyperref' Info: End of reference (cite) `cite.IgorGeorge2020', line 10
+.
+Package `hyperref' Info: End of reference (cite) `cite.IgorGeorge2020', line 10
+.
+Package `hyperref' Info: End of reference (cite) `cite.Schobeiri2018', line 11.
 
-pdftex: bookmark at 11: {2.2.1} {\numberline{2.2.1}NSGA-II} {subsection.2.2.1} 
-{2} {toc} 
-Package hyperref Info: Anchor `section.2.3' on input line 13.
-pdftex: bookmark at 13: {2.3} {\numberline{2.3}Otimiza\c c\~ao} {section.2.3} {
+Package `hyperref' Info: End of reference (cite) `cite.Schobeiri2018', line 11.
+
+Package `hyperref' Info: End of reference (cite) `cite.Denton1993', line 12.
+Package `hyperref' Info: End of reference (cite) `cite.Denton1993', line 12.
+Package `hyperref' Info: End of reference (cite) `cite.Maia2019', line 13.
+Package `hyperref' Info: End of reference (cite) `cite.Maia2019', line 13.
+Package `hyperref' Info: End of reference (cite) `cite.Denton1998', line 14.
+Package `hyperref' Info: End of reference (cite) `cite.Denton1998', line 14.
+]
+Package hyperref Info: Anchor `Item.9' on input line 16.
+Package hyperref Info: Reference (cite) `cite.Leach1983' on input line 16.
+Package hyperref Info: Reference (cite) `cite.Leach1983' on input line 16.
+Package hyperref Info: Anchor `Item.10' on input line 17.
+Package hyperref Info: Reference (cite) `cite.Kadhim2018' on input line 17.
+Package hyperref Info: Reference (cite) `cite.Kadhim2018' on input line 17.
+Package hyperref Info: Anchor `Item.11' on input line 18.
+Package hyperref Info: Reference (cite) `cite.DentonWallis1998' on input line 1
+8.
+Package hyperref Info: Reference (cite) `cite.DentonWallis1998' on input line 1
+8.
+Package hyperref Info: Anchor `subsection.2.1.1' on input line 21.
+
+pdftex: bookmark at 21: {2.1.1} {\numberline{2.1.1}Modelos de Perdas} {subsecti
+on.2.1.1} {2} {toc} 
+Package hyperref Info: Anchor `section.2.2' on input line 23.
+pdftex: bookmark at 23: {2.2} {\numberline{2.2}Algoritmo Gen\'etico} {section.2
+.2} {1} {toc} 
+Package hyperref Info: Anchor `section.2.3' on input line 26.
+pdftex: bookmark at 26: {2.3} {\numberline{2.3}Otimiza\c c\~ao} {section.2.3} {
 1} {toc} 
-Package hyperref Info: Reference (link) `figure.caption.9' on input line 18.
-Package hyperref Info: Anchor `figure.caption.9' on input line 20.
-<Cap2/od_flowchart.png, id=276, 643.40375pt x 635.37375pt>
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 31.
+Package hyperref Info: Anchor `figure.caption.9' on input line 33.
+<Cap2/od_flowchart.png, id=311, 643.40375pt x 635.37375pt>
 File: Cap2/od_flowchart.png Graphic file (type png)
 <use Cap2/od_flowchart.png>
-Package pdftex.def Info: Cap2/od_flowchart.png  used on input line 22.
+Package pdftex.def Info: Cap2/od_flowchart.png  used on input line 35.
 (pdftex.def)             Requested size: 341.43307pt x 337.18275pt.
-pdftex: bookmark at 23: {2.1} {\numberline{2.1}{\ignorespaces Fluxograma do pro
+pdftex: bookmark at 36: {2.1} {\numberline{2.1}{\ignorespaces Fluxograma do pro
 cesso de design \'otimo.\relax }} {figure.caption.9} {0} {lof} 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package hyperref Info: Anchor `subsection.2.3.1' on input line 27.
-pdftex: bookmark at 27: {2.3.1} {\numberline{2.3.1}Vari\'aveis de Projeto} {sub
+Package hyperref Info: Anchor `subsection.2.3.1' on input line 40.
+pdftex: bookmark at 40: {2.3.1} {\numberline{2.3.1}Vari\'aveis de Projeto} {sub
 section.2.3.1} {2} {toc} 
-Package hyperref Info: Anchor `subsection.2.3.2' on input line 30.
-pdftex: bookmark at 30: {2.3.2} {\numberline{2.3.2}Fun\c c\~ao Objetivo} {subse
-ction.2.3.2} {2} {toc} 
-Package hyperref Info: Anchor `subsection.2.3.3' on input line 33.
-pdftex: bookmark at 33: {2.3.3} {\numberline{2.3.3}Restri\c c\~oes} {subsection
-.2.3.3} {2} {toc} 
-Package hyperref Info: Anchor `subsection.2.3.4' on input line 35.
-pdftex: bookmark at 35: {2.3.4} {\numberline{2.3.4}Limites das Vari\'aveis de P
-rojeto} {subsection.2.3.4} {2} {toc} 
-Package hyperref Info: Anchor `page.18' on input line 37.
+Package hyperref Info: Anchor `page.18' on input line 42.
 [18
-Package `hyperref' Info: End of reference (link) `figure.caption.9', line 18.
+Package `hyperref' Info: End of reference (cite) `cite.Craig1970', line 15.
+Package `hyperref' Info: End of reference (cite) `cite.Craig1970', line 15.
+Package `hyperref' Info: End of reference (cite) `cite.Leach1983', line 16.
+Package `hyperref' Info: End of reference (cite) `cite.Leach1983', line 16.
+Package `hyperref' Info: End of reference (cite) `cite.Kadhim2018', line 17.
+Package `hyperref' Info: End of reference (cite) `cite.Kadhim2018', line 17.
+Package `hyperref' Info: End of reference (cite) `cite.DentonWallis1998', line 
+18.
+Package `hyperref' Info: End of reference (cite) `cite.DentonWallis1998', line 
+18.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 31.
 ]
-Package hyperref Info: Anchor `subsection.2.3.5' on input line 38.
+Package hyperref Info: Anchor `subsection.2.3.2' on input line 43.
 
-pdftex: bookmark at 38: {2.3.5} {\numberline{2.3.5}Modelagem} {subsection.2.3.5
-} {2} {toc} 
-Package hyperref Info: Reference (link) `equation.2.3.1' on input line 39.
-Package hyperref Info: Anchor `page.19' on input line 40.
+pdftex: bookmark at 43: {2.3.2} {\numberline{2.3.2}Fun\c c\~ao Objetivo} {subse
+ction.2.3.2} {2} {toc} 
+Package hyperref Info: Anchor `subsection.2.3.3' on input line 46.
+pdftex: bookmark at 46: {2.3.3} {\numberline{2.3.3}Restri\c c\~oes} {subsection
+.2.3.3} {2} {toc} 
+Package hyperref Info: Anchor `subsection.2.3.4' on input line 48.
+pdftex: bookmark at 48: {2.3.4} {\numberline{2.3.4}Limites das Vari\'aveis de P
+rojeto} {subsection.2.3.4} {2} {toc} 
+Package hyperref Info: Anchor `page.19' on input line 50.
 [19 <./Cap2/od_flowchart.png>]
-Package hyperref Info: Anchor `equation.2.3.1' on input line 41.
+Package hyperref Info: Anchor `subsection.2.3.5' on input line 51.
+
+pdftex: bookmark at 51: {2.3.5} {\numberline{2.3.5}Modelagem} {subsection.2.3.5
+} {2} {toc} 
+Package hyperref Info: Reference (link) `equation.2.3.1' on input line 52.
+Package hyperref Info: Anchor `equation.2.3.1' on input line 54.
+Package hyperref Info: Anchor `Item.12' on input line 63.
+Package hyperref Info: Reference (cite) `cite.Mengistu2004' on input line 63.
+Package hyperref Info: Reference (cite) `cite.Mengistu2004' on input line 63.
+Package hyperref Info: Anchor `Item.13' on input line 64.
+Package hyperref Info: Reference (cite) `cite.Asgarshamsi2014' on input line 64
+.
+Package hyperref Info: Reference (cite) `cite.Asgarshamsi2014' on input line 64
+.
+Package hyperref Info: Anchor `Item.14' on input line 65.
+Package hyperref Info: Reference (cite) `cite.Thorn2016' on input line 65.
+Package hyperref Info: Reference (cite) `cite.Thorn2016' on input line 65.
+Package hyperref Info: Anchor `Item.15' on input line 66.
+Package hyperref Info: Reference (cite) `cite.Arabnia2009' on input line 66.
+Package hyperref Info: Reference (cite) `cite.Arabnia2009' on input line 66.
+Package hyperref Info: Anchor `Item.16' on input line 67.
+Package hyperref Info: Reference (cite) `cite.Cervantes2018' on input line 67.
+Package hyperref Info: Reference (cite) `cite.Cervantes2018' on input line 67.
+Package hyperref Info: Anchor `Item.17' on input line 68.
+Package hyperref Info: Reference (cite) `cite.Juangphanich2019' on input line 6
+8.
+Package hyperref Info: Reference (cite) `cite.Juangphanich2019' on input line 6
+8.
+Package hyperref Info: Anchor `Item.18' on input line 69.
+Package hyperref Info: Reference (cite) `cite.Juangphanich2017' on input line 6
+9.
+Package hyperref Info: Reference (cite) `cite.Juangphanich2017' on input line 6
+9.
+Package hyperref Info: Anchor `page.20' on input line 70.
+[20
+Package `hyperref' Info: End of reference (link) `equation.2.3.1', line 52.
+Package `hyperref' Info: End of reference (cite) `cite.Mengistu2004', line 63.
+Package `hyperref' Info: End of reference (cite) `cite.Mengistu2004', line 63.
+Package `hyperref' Info: End of reference (cite) `cite.Asgarshamsi2014', line 6
+4.
+Package `hyperref' Info: End of reference (cite) `cite.Asgarshamsi2014', line 6
+4.
+Package `hyperref' Info: End of reference (cite) `cite.Thorn2016', line 65.
+Package `hyperref' Info: End of reference (cite) `cite.Thorn2016', line 65.
+Package `hyperref' Info: End of reference (cite) `cite.Arabnia2009', line 66.
+Package `hyperref' Info: End of reference (cite) `cite.Arabnia2009', line 66.
+Package `hyperref' Info: End of reference (cite) `cite.Cervantes2018', line 67.
+
+Package `hyperref' Info: End of reference (cite) `cite.Cervantes2018', line 67.
+
+Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2019', line 
+68.
+Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2019', line 
+68.
+]
+Package hyperref Info: Anchor `Item.19' on input line 70.
+Package hyperref Info: Reference (cite) `cite.Agromayor2019' on input line 70.
+Package hyperref Info: Reference (cite) `cite.Agromayor2019' on input line 70.
+Package hyperref Info: Anchor `Item.20' on input line 71.
+Package hyperref Info: Reference (cite) `cite.NooriRahimAbadi2017' on input lin
+e 71.
+Package hyperref Info: Reference (cite) `cite.NooriRahimAbadi2017' on input lin
+e 71.
+Package hyperref Info: Anchor `Item.21' on input line 72.
+Package hyperref Info: Reference (cite) `cite.Aminyavari2016' on input line 72.
+
+Package hyperref Info: Reference (cite) `cite.Aminyavari2016' on input line 72.
+
+Package hyperref Info: Anchor `Item.22' on input line 73.
+Package hyperref Info: Reference (cite) `cite.Ba2019' on input line 73.
+Package hyperref Info: Reference (cite) `cite.Ba2019' on input line 73.
+Package hyperref Info: Anchor `Item.23' on input line 74.
+Package hyperref Info: Reference (cite) `cite.Lonard2008' on input line 74.
+Package hyperref Info: Reference (cite) `cite.Lonard2008' on input line 74.
+Package hyperref Info: Anchor `Item.24' on input line 75.
+Package hyperref Info: Reference (cite) `cite.ksz2010' on input line 75.
+Package hyperref Info: Reference (cite) `cite.ksz2010' on input line 75.
+Package hyperref Info: Anchor `Item.25' on input line 76.
+Package hyperref Info: Reference (cite) `cite.Arabnia2012' on input line 76.
+Package hyperref Info: Reference (cite) `cite.Arabnia2012' on input line 76.
+Package hyperref Info: Anchor `Item.26' on input line 77.
+Package hyperref Info: Reference (cite) `cite.Jenkins1982' on input line 77.
+Package hyperref Info: Reference (cite) `cite.Jenkins1982' on input line 77.
+Package hyperref Info: Anchor `Item.27' on input line 78.
+Package hyperref Info: Reference (cite) `cite.Jenkins1983' on input line 78.
+Package hyperref Info: Reference (cite) `cite.Jenkins1983' on input line 78.
+Package hyperref Info: Anchor `Item.28' on input line 79.
+Package hyperref Info: Reference (cite) `cite.Cervantes2018thesis' on input lin
+e 79.
+Package hyperref Info: Reference (cite) `cite.Cervantes2018thesis' on input lin
+e 79.
+Package hyperref Info: Anchor `Item.29' on input line 80.
+Package hyperref Info: Reference (cite) `cite.Sivashanmugam2011' on input line 
+80.
+Package hyperref Info: Reference (cite) `cite.Sivashanmugam2011' on input line 
+80.
+Package hyperref Info: Anchor `Item.30' on input line 81.
+Package hyperref Info: Reference (cite) `cite.Mengistu2005' on input line 81.
+Package hyperref Info: Reference (cite) `cite.Mengistu2005' on input line 81.
+Package hyperref Info: Anchor `Item.31' on input line 82.
+Package hyperref Info: Reference (cite) `cite.Amano2003' on input line 82.
+Package hyperref Info: Reference (cite) `cite.Amano2003' on input line 82.
+Package hyperref Info: Anchor `Item.32' on input line 83.
+Package hyperref Info: Reference (cite) `cite.Rao2012' on input line 83.
+Package hyperref Info: Reference (cite) `cite.Rao2012' on input line 83.
+Package hyperref Info: Anchor `Item.33' on input line 84.
+Package hyperref Info: Reference (cite) `cite.Deb2012' on input line 84.
+Package hyperref Info: Reference (cite) `cite.Deb2012' on input line 84.
+Package hyperref Info: Anchor `subsection.2.3.6' on input line 87.
+
+pdftex: bookmark at 87: {2.3.6} {\numberline{2.3.6}NSGA-II} {subsection.2.3.6} 
+{2} {toc} 
+Package hyperref Info: Anchor `Item.34' on input line 90.
+Package hyperref Info: Reference (cite) `cite.Deb2002' on input line 90.
+Package hyperref Info: Reference (cite) `cite.Deb2002' on input line 90.
 )
-Package hyperref Info: Anchor `page.20' on input line 176.
- [20
-Package `hyperref' Info: End of reference (link) `equation.2.3.1', line 39.
+Package hyperref Info: Anchor `page.21' on input line 176.
+ [21
+Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2017', line 
+69.
+Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2017', line 
+69.
+Package `hyperref' Info: End of reference (cite) `cite.Agromayor2019', line 70.
+
+Package `hyperref' Info: End of reference (cite) `cite.Agromayor2019', line 70.
+
+Package `hyperref' Info: End of reference (cite) `cite.NooriRahimAbadi2017', li
+ne 71.
+Package `hyperref' Info: End of reference (cite) `cite.NooriRahimAbadi2017', li
+ne 71.
+Package `hyperref' Info: End of reference (cite) `cite.Aminyavari2016', line 72
+.
+Package `hyperref' Info: End of reference (cite) `cite.Aminyavari2016', line 72
+.
+Package `hyperref' Info: End of reference (cite) `cite.Ba2019', line 73.
+Package `hyperref' Info: End of reference (cite) `cite.Ba2019', line 73.
+Package `hyperref' Info: End of reference (cite) `cite.Lonard2008', line 74.
+Package `hyperref' Info: End of reference (cite) `cite.Lonard2008', line 74.
+Package `hyperref' Info: End of reference (cite) `cite.ksz2010', line 75.
+Package `hyperref' Info: End of reference (cite) `cite.ksz2010', line 75.
+Package `hyperref' Info: End of reference (cite) `cite.Arabnia2012', line 76.
+Package `hyperref' Info: End of reference (cite) `cite.Arabnia2012', line 76.
+Package `hyperref' Info: End of reference (cite) `cite.Jenkins1982', line 77.
+Package `hyperref' Info: End of reference (cite) `cite.Jenkins1982', line 77.
+Package `hyperref' Info: End of reference (cite) `cite.Jenkins1983', line 78.
+Package `hyperref' Info: End of reference (cite) `cite.Jenkins1983', line 78.
+Package `hyperref' Info: End of reference (cite) `cite.Cervantes2018thesis', li
+ne 79.
+Package `hyperref' Info: End of reference (cite) `cite.Cervantes2018thesis', li
+ne 79.
+Package `hyperref' Info: End of reference (cite) `cite.Sivashanmugam2011', line
+ 80.
+Package `hyperref' Info: End of reference (cite) `cite.Sivashanmugam2011', line
+ 80.
+Package `hyperref' Info: End of reference (cite) `cite.Mengistu2005', line 81.
+Package `hyperref' Info: End of reference (cite) `cite.Mengistu2005', line 81.
+Package `hyperref' Info: End of reference (cite) `cite.Amano2003', line 82.
+Package `hyperref' Info: End of reference (cite) `cite.Amano2003', line 82.
+Package `hyperref' Info: End of reference (cite) `cite.Rao2012', line 83.
+Package `hyperref' Info: End of reference (cite) `cite.Rao2012', line 83.
+Package `hyperref' Info: End of reference (cite) `cite.Deb2012', line 84.
+Package `hyperref' Info: End of reference (cite) `cite.Deb2012', line 84.
+Package `hyperref' Info: End of reference (cite) `cite.Deb2002', line 90.
+Package `hyperref' Info: End of reference (cite) `cite.Deb2002', line 90.
 ]
 Package hyperref Info: Anchor `chapter.3' on input line 176.
 
@@ -1054,8 +1271,8 @@ Package hyperref Info: Anchor `section.3.1' on input line 1.
 pdftex: bookmark at 1: {3.1} {\numberline{3.1}Defini\c c\~ao do problema} {sect
 ion.3.1} {1} {toc} 
 )
-Package hyperref Info: Anchor `page.21' on input line 179.
- [21
+Package hyperref Info: Anchor `page.22' on input line 179.
+ [22
 
 ]
 Package hyperref Info: Anchor `chapter.4' on input line 179.
@@ -1064,8 +1281,8 @@ Cap\'{\i }tulo 4.
 pdftex: bookmark at 179: {4} {\numberline{4}Discuss\~ao de Resultados} {chapter
 .4} {0} {toc} 
 (./Cap4/cap4.tex)
-Package hyperref Info: Anchor `page.22' on input line 182.
- [22
+Package hyperref Info: Anchor `page.23' on input line 182.
+ [23
 
 ]
 Package hyperref Info: Anchor `chapter.5' on input line 182.
@@ -1077,19 +1294,57 @@ pdftex: bookmark at 182: {5} {\numberline{5}Conclus\~ao} {chapter.5} {0} {toc}
 \tf@brf=\write10
 \openout10 = `tese.brf'.
 
-Package hyperref Info: Anchor `page.23' on input line 3.
- [23
+Package hyperref Info: Anchor `page.24' on input line 3.
+ [24
 
 ]
 Package hyperref Info: Anchor `chapter*.10' on input line 3.
 Package hyperref Info: Anchor `chapter.6' on input line 3.
 
 pdftex: bookmark at 3: {6} {Refer\^encias} {chapter.6} {0} {toc} 
-)
-Package hyperref Info: Anchor `page.24' on input line 190.
- [24
+Package hyperref Info: Anchor `cite.NooriRahimAbadi2017' on input line 16.
+Package hyperref Info: Anchor `cite.Agromayor2019' on input line 24.
+Package hyperref Info: Anchor `cite.Amano2003' on input line 30.
+Package hyperref Info: Anchor `cite.Aminyavari2016' on input line 41.
+Package hyperref Info: Anchor `cite.Arabnia2012' on input line 49.
+Package hyperref Info: Anchor `cite.Arabnia2009' on input line 56.
+Package hyperref Info: Anchor `cite.Asgarshamsi2014' on input line 67.
+Package hyperref Info: Anchor `cite.Ba2019' on input line 75.
+Package hyperref Info: Anchor `cite.Cervantes2018thesis' on input line 82.
+Package hyperref Info: Anchor `page.25' on input line 89.
+[25
 
 ]
+Package hyperref Info: Anchor `cite.Cervantes2018' on input line 89.
+Package hyperref Info: Anchor `cite.Craig1970' on input line 98.
+Package hyperref Info: Anchor `cite.Deb2012' on input line 104.
+Package hyperref Info: Anchor `cite.Deb2002' on input line 113.
+Package hyperref Info: Anchor `cite.Denton1993' on input line 119.
+Package hyperref Info: Anchor `cite.Denton1998' on input line 129.
+Package hyperref Info: Anchor `cite.Jenkins1982' on input line 136.
+Package hyperref Info: Anchor `cite.Jenkins1983' on input line 143.
+Package hyperref Info: Anchor `cite.Juangphanich2019' on input line 151.
+Package hyperref Info: Anchor `cite.Juangphanich2017' on input line 159.
+Package hyperref Info: Anchor `cite.Kadhim2018' on input line 166.
+Package hyperref Info: Anchor `cite.Leach1983' on input line 171.
+Package hyperref Info: Anchor `cite.Lonard2008' on input line 180.
+Package hyperref Info: Anchor `page.26' on input line 180.
+ [26]
+Package hyperref Info: Anchor `cite.Maia2019' on input line 188.
+Package hyperref Info: Anchor `cite.Mengistu2004' on input line 196.
+Package hyperref Info: Anchor `cite.Mengistu2005' on input line 203.
+Package hyperref Info: Anchor `cite.ksz2010' on input line 212.
+Package hyperref Info: Anchor `cite.IgorGeorge2020' on input line 219.
+Package hyperref Info: Anchor `cite.Rao2012' on input line 225.
+Package hyperref Info: Anchor `cite.Saravanamuttoo2017' on input line 233.
+Package hyperref Info: Anchor `cite.Schobeiri2018' on input line 239.
+Package hyperref Info: Anchor `cite.Sivashanmugam2011' on input line 247.
+Package hyperref Info: Anchor `cite.Thorn2016' on input line 255.
+Package hyperref Info: Anchor `cite.DentonWallis1998' on input line 262.
+Package hyperref Info: Anchor `page.27' on input line 262.
+ [27])
+Package hyperref Info: Anchor `page.28' on input line 190.
+ [28]
 Package hyperref Info: Anchor `appendix.A' on input line 191.
 
 Ap\^endice A.
@@ -1101,8 +1356,8 @@ Package hyperref Info: Anchor `section.A.1' on input line 1.
 pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap
 \^endice} {section.A.1} {1} {toc} 
 )
-Package hyperref Info: Anchor `page.25' on input line 195.
- [25
+Package hyperref Info: Anchor `page.29' on input line 195.
+ [29
 
 
 ]
@@ -1117,8 +1372,8 @@ Package hyperref Info: Anchor `section.a.1' on input line 2.
 pdftex: bookmark at 2: {A.1} {\numberline{A.1}Uma Se\c c\~ao do Primeiro Anexo}
  {section.a.1} {1} {toc} 
 )
-Package hyperref Info: Anchor `page.26' on input line 216.
- [26
+Package hyperref Info: Anchor `page.30' on input line 216.
+ [30
 
 
 ]
@@ -1132,8 +1387,8 @@ Overfull \hbox (74.53033pt too wide) in paragraph at lines 216--217
 
 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.27' on input line 218.
-[27
+Package hyperref Info: Anchor `page.31' on input line 218.
+[31
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
@@ -1142,20 +1397,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: A91101408FA19A2D83DD6566B0ACF55D;2379.
+(rerunfilecheck)             Checksum: 4DC6A7FE83D4E4BD32EB13C7B675BB8F;2379.
 Package rerunfilecheck Info: File `tese.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 14920 strings out of 480608
- 254138 string characters out of 5903631
- 549323 words of memory out of 5000000
- 30240 multiletter control sequences out of 15000+600000
- 585388 words of font info for 115 fonts, out of 8000000 for 9000
+ 15226 strings out of 480608
+ 258958 string characters out of 5903631
+ 555967 words of memory out of 5000000
+ 30472 multiletter control sequences out of 15000+600000
+ 587872 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,79p,1081b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -1173,12 +1431,13 @@ ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/202
-0/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on tese.pdf (27 pages, 315182 bytes).
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020
+/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
+Output written on tese.pdf (31 pages, 344942 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 514 compressed objects within 6 object streams
+ 150 named destinations out of 1000 (max. 500000)
  310 words of extra memory for PDF output out of 10000 (max. 10000000)
 
