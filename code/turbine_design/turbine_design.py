@@ -476,43 +476,6 @@ def graph_zBn():
     return fig
 
 
-# def initial_screen():  # cria janela principal
-#     global standard_font, framelab_font
-#     global myGui, initial_window
-#     initial_window = tk.Frame(myGui)
-#     initial_window.place(width=myGui_width, height=myGui_height, x=0, y=0)
-
-#     ita_logo = ita_logo_plot()
-#     canvas_logo = FigureCanvasTkAgg(ita_logo, master=initial_window)
-#     canvas_logo.draw()
-#     canvas_logo.get_tk_widget().pack()
-#     plt.close(ita_logo)
-
-#     develops_label = tk.Label(initial_window, text="Aeronautics Institute of Technology\n" +
-#                               "Turbomachinery Department\n\n",
-#                               font=("times new roman", 18, "bold"))
-#     develops_label.pack()
-
-#     tutorial_label = tk.Label(initial_window, text="Welcome to the Axial Turbine Design Learning Platform.\n\n" +
-#                               "\n" +
-#                               "The objective of this platform is to help engineering students in the preliminary design process of\n\n" +
-#                               "single-stage axial turbines for aeronautical applications, presenting the challenges and the multiple\n\n" +
-#                               "paths possible. To achieve this goal, the software guides the user through various steps in which\n\n" +
-#                               "he or she must choose important design parameters or decide one of the different approaches to\n\n" +
-#                               "take. At each step, an “INFO” button is available that provides short notes commenting on the\n\n" +
-#                               "importance of that decision, what kind of effects it may have on the design and which are the\n\n" +
-#                               "common answers found in practice. While progressing through the phases, critical data will be\n\n" +
-#                               "displayed in the output panel, so the user will be able to monitor the velocity diagrams, evaluate\n\n" +
-#                               "the degree of reaction distribution along the blade, check the main geometric dimensions, stress\n\n" +
-#                               "levels, choking condition, and other properties.",
-#                               font=("times new roman", 14))
-#     tutorial_label.pack()
-#     start_button = tk.Button(initial_window, text="START",
-#                              command=design_screen, font=("times new roman", 14))
-#     start_button.place(x=myGui_width//2 - 50, y=myGui_height -
-#                        180, width=100, height=50)
-
-
 def ita_logo_plot():
     fig, axs = plt.subplots(figsize=(6, 2))
     axs.imshow(img.imread("ita_logo.png"))
@@ -520,120 +483,19 @@ def ita_logo_plot():
     return fig
 
 
-def design_screen():  # definições de parâmetros da janela
-    global design_window
-    initial_window.destroy()
-    design_window = tk.Frame(myGui)
-    design_window.place(width=myGui_width, height=myGui_height, x=0, y=0)
-    input_variables()
-
-
-def input_variables():  # define parâmetros da subjanela de input
-    global input_frame, column1_frame
-    global text1, text2, text3, text4, text5
-    column1_frame = tk.Frame(design_window)
-    column1_frame.grid(row=0, column=0, sticky='n')
-    input_frame = tk.LabelFrame(
-        column1_frame, text=" INPUT VARIABLES ", font=framelab_font)
-    input_frame.grid(row=0, column=0, padx=10, pady=10)
-    input_frame.grid_columnconfigure(0, minsize=180)
-    input_frame.grid_columnconfigure(1, minsize=10)
-    input_frame.grid_columnconfigure(2, minsize=40)
-    input_frame.grid_columnconfigure(3, minsize=80)
-    input_frame.grid_columnconfigure(4, minsize=40)
-
-    labinp11 = tk.Label(
-        input_frame, text="Mass Flow Rate:", font=standard_font)
-    labinp11.grid(row=0, column=0, sticky='w')
-    labinp12 = tk.Label(input_frame, text="m   =", font=standard_font)
-    labinp12.grid(row=0, column=2, sticky='e')
-    text1 = tk.StringVar()
-    entinp1 = tk.Entry(input_frame, textvariable=text1,
-                       width=10, justify='center', font=standard_font)
-    entinp1.grid(row=0, column=3)
-    text1.set("20")
-    labinp13 = tk.Label(input_frame, text="kg/s", font=standard_font)
-    labinp13.grid(row=0, column=4, sticky='w')
-
-    labinp21 = tk.Label(
-        input_frame, text="Specific Shaft Work:", font=standard_font)
-    labinp21.grid(row=1, column=0, sticky='w')
-    labinp22 = tk.Label(input_frame, text="Ws =", font=standard_font)
-    labinp22.grid(row=1, column=2, sticky='e')
-    text2 = tk.StringVar()
-    entinp2 = tk.Entry(input_frame, textvariable=text2,
-                       width=10, justify='center', font=standard_font)
-    entinp2.grid(row=1, column=3)
-    text2.set("166460")
-    labinp23 = tk.Label(input_frame, text="J/kg", font=standard_font)
-    labinp23.grid(row=1, column=4, sticky='w')
-
-    labinp31 = tk.Label(
-        input_frame, text="Inlet Total Temperature:", font=standard_font)
-    labinp31.grid(row=2, column=0, sticky='w')
-    labinp32 = tk.Label(input_frame, text="T01 =", font=standard_font)
-    labinp32.grid(row=2, column=2, sticky='e')
-    text3 = tk.StringVar()
-    entinp3 = tk.Entry(input_frame, textvariable=text3,
-                       width=10, justify='center', font=standard_font)
-    entinp3.grid(row=2, column=3)
-    text3.set("1100")
-    labinp33 = tk.Label(input_frame, text="K", font=standard_font)
-    labinp33.grid(row=2, column=4, sticky='w')
-
-    labinp41 = tk.Label(
-        input_frame, text="Inlet Total Pressure:", font=standard_font)
-    labinp41.grid(row=3, column=0, sticky='w')
-    labinp42 = tk.Label(input_frame, text="p01 =", font=standard_font)
-    labinp42.grid(row=3, column=2, sticky='e')
-    text4 = tk.StringVar()
-    entinp4 = tk.Entry(input_frame, textvariable=text4,
-                       width=10, justify='center', font=standard_font)
-    entinp4.grid(row=3, column=3)
-    text4.set("4")
-    labinp43 = tk.Label(input_frame, text="bar", font=standard_font)
-    labinp43.grid(row=3, column=4, sticky='w')
-
-    labinp51 = tk.Label(
-        input_frame, text="Pressure Ratio:", font=standard_font)
-    labinp51.grid(row=4, column=0, sticky='w')
-    labinp52 = tk.Label(input_frame, text="PR  =", font=standard_font)
-    labinp52.grid(row=4, column=2, sticky='e')
-    text5 = tk.StringVar()
-    entinp5 = tk.Entry(input_frame, textvariable=text5,
-                       width=10, justify='center', font=standard_font)
-    entinp5.grid(row=4, column=3)
-    text5.set("1.873")
-
-    nxtbtn1 = tk.Button(input_frame, text="Next",
-                        command=read_input, font=standard_font, width=10)
-    nxtbtn1.grid(row=6, column=0, columnspan=5, sticky='e', padx=5, pady=5)
-
-    infobtn1 = tk.Button(input_frame, text="Info",
-                         command=info_input, font=standard_font, width=10)
-    infobtn1.grid(row=6, column=0, columnspan=5, sticky='w', padx=5, pady=5)
-
-    global labinp61
-    labinp61 = tk.Label(
-        input_frame, text="Enter all variables, please.", font=standard_font)
-
-
 def read_input():  # lê os inputs
     global m, ws, T01, p01, PR0
-    if ((not text1.get()) | (not text2.get()) | (not text3.get()) | (not text4.get()) | (not text5.get())):
-        labinp61.grid(row=5, column=0, columnspan=5, sticky='w'+'e')
-    else:
-        labinp61.grid_forget()
-        m = float(text1.get())
-        ws = float(text2.get())
-        T01 = float(text3.get())
-        p01 = float(text4.get())
-        PR0 = float(text5.get())
-        global hypth_frame_flag, read_hypth_flag
-        if (hypth_frame_flag == False):
-            hypotheses()
-        elif (read_hypth_flag == True):
-            read_hypth()
+    m = 20
+    ws = 166460
+    T01 = 1100
+    p01 = 4e5
+    PR0 = 1.873
+
+    global hypth_frame_flag, read_hypth_flag
+    if (hypth_frame_flag == False):
+        hypotheses()
+    elif (read_hypth_flag == True):
+        read_hypth()
 
 
 def hypotheses():  # define parâmetros da subjanela de hipóteses
@@ -732,7 +594,7 @@ def hypotheses():  # define parâmetros da subjanela de hipóteses
                         width=10, justify='center', font=standard_font)
     text13.set("1.0")
     global axial_velocity_flag
-    axial_velocity_flag = tk.IntVar(value=1)
+    axial_velocity_flag = 2
 
     def axial_velocity():
         if (axial_velocity_flag.get() == 1):
@@ -758,6 +620,7 @@ def hypotheses():  # define parâmetros da subjanela de hipóteses
                              command=axial_velocity, variable=axial_velocity_flag, value=2)
     rdbhyp2.grid(row=7, column=0, sticky='w')
 
+    # Button
     nxtbtn2 = tk.Button(hypth_frame, text="Next",
                         command=read_hypth, font=standard_font, width=10)
     nxtbtn2.grid(row=11, column=0, columnspan=5, sticky='e', padx=5, pady=5)
@@ -782,19 +645,19 @@ def read_hypth():  # lê as hipóteses
         global read_hypth_flag, iteration_flag
         read_hypth_flag = True
         labhyp81.grid_forget()
-        N = float(text6.get())
-        U = float(text7.get())
-        alpha1 = float(text8.get())
-        alpha3 = float(text9.get())
+        N = 250 # Hz
+        U = 340
+        alpha1 = 0
+        alpha3 = 10
         if (iteration_flag == int(0)):
-            lbdN = float(text10.get())
+            lbdN = 0.05
         else:
             text10.set("%.4f" % lbdN)
         if (axial_velocity_flag.get() == 1):
-            phi = float(text11.get())
+            phi = 0.8
         else:
-            phi2 = float(text12.get())
-            phi3 = float(text13.get())
+            phi2 = 0.7
+            phi3 = 1.0
         velocity_diagrams_mean()
 
 

@@ -605,6 +605,7 @@ def input_variables():  # define parâmetros da subjanela de input
     entinp5.grid(row=4, column=3)
     text5.set("1.873")
 
+    # Buttons
     nxtbtn1 = tk.Button(input_frame, text="Next",
                         command=read_input, font=standard_font, width=10)
     nxtbtn1.grid(row=6, column=0, columnspan=5, sticky='e', padx=5, pady=5)
@@ -758,6 +759,7 @@ def hypotheses():  # define parâmetros da subjanela de hipóteses
                              command=axial_velocity, variable=axial_velocity_flag, value=2)
     rdbhyp2.grid(row=7, column=0, sticky='w')
 
+    # Button
     nxtbtn2 = tk.Button(hypth_frame, text="Next",
                         command=read_hypth, font=standard_font, width=10)
     nxtbtn2.grid(row=11, column=0, columnspan=5, sticky='e', padx=5, pady=5)

@@ -6,9 +6,8 @@ import turbine_design
 
 def main():
     # Creating a user interface app
-    print('roncha')
     myGui = Tk()
-    myGui.title("Axial Turbine Design")
+    myGui.title("Axial Flow Turbine Design")
     myGui_width = 1600
     myGui_height = 900
     myGui_posx = (myGui.winfo_screenwidth() // 2) - (myGui_width // 2)
