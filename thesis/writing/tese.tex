@@ -38,7 +38,7 @@
 %	\documentclass[dsc, eng, draft]{ita}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\documentclass[msc]{itathesis}    % itathesis.cls based on standard book.cls 
+\documentclass[msc, eng]{itathesis}    % itathesis.cls based on standard book.cls 
 % Quando alterar a classe, por exemplo de [msc] para [msc, eng]) rode mais uma vez o botão BUILD OUTPUT caso haja erro
 \usepackage{ae}
 \usepackage{graphicx}
@@ -72,7 +72,7 @@
 \authorAddress{Rua República do Líbano, 314}{12.216-590}{São José dos Campos}{SP}
 
 % Título da Tese/Dissertação/Trabalho
-\title{Ferramenta de Otimização de Projeto Preliminar de Turbinas Axiais}
+\title{Optimization of Preliminary Design of Axial Flow Turbines for Turbopump Applications Based on Reduced Order Methodology}
 
 \course{Engenharia Aeronáutica e Mecânica}			% Programa de PG ou Curso de Graduação
 \area{Propulsão Aeroespacial e Energia}			% Área de concentração na PG (Não utilizado no caso de TG)\\
@@ -81,15 +81,15 @@
 \advisor{Prof.}{Dr.}{Jesuíno Takachi Tomita}{masc}{ITA}
 
 % Coorientador (Caso não haja coorientador, comentadar com um % na frente)
-\coadvisor{Prof.}{Dr.}{Doralice Serra}{fem}{OVNI}
+%\coadvisor{Prof.}{Dr.}{Doralice Serra}{fem}{OVNI}
 
 % Pró-reitor da Pós-Graduação (Coordenador do curso no caso de TG)
-\boss{Prof.}{Dr.}{John von Neumann}{masc}
+\boss{Prof.}{Dr.}{Pedro Teixeira Lacava}{masc}
 
 % Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
-\kwcip{Turbina Axial}
-\kwcip{Algoritmo Genético}
-\kwcip{Otimização}
+\kwcip{Axial Flow Turbine}
+\kwcip{Turbopumps}
+\kwcip{Optimization}
 
 % Membros da banca examinadora
 \examiner{Prof.}{Dr.}{Alan Turing}{masc}{Presidente}{ITA}
@@ -99,10 +99,10 @@
 \examiner{Prof.}{Dr.}{Minie Mouse}{fem}{}{DISNEY}
 
 % Data da defesa/qualificação/seminário de tese ({dia}{mês}{ano})
-\date{12}{2}{2021}
+\date{17}{2}{2021}
 
 % Número CDU (somente para TG)
-\cdu{621.38}
+\cdu{666.66}
 
 % Glossário
 \makeglossary
@@ -167,19 +167,19 @@ it is because I stood on the shoulders of giants.''\\}
 \mainmatter
 % Os capítulos começam aqui
 
-\chapter{Introdução}
+\chapter{Introduction}
 \input{Cap1/cap1}
 
-\chapter{Revisão da Literatura}
+\chapter{Objective}
 \input{Cap2/cap2}
 
-\chapter{Metodologia}
+\chapter{Literature Survey}
 \input{Cap3/cap3}
 
-\chapter{Discussão de Resultados}
+\chapter{Discussion}
 \input{Cap4/cap4}
 
-\chapter{Conclusão}
+\chapter{Conclusion}
 \input{Cap5/cap5}
 
 % REFERÊNCIAS BIBLIOGRÁFICAS
@@ -211,8 +211,8 @@ it is because I stood on the shoulders of giants.''\\}
 % Primeiro parâmetro: Nacional ou Internacional -- N/I
 % Segundo parâmetro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
 \FRDitaOpcoes{N}{O}
-
 % Cria o formulário
+
 \itaFRD
 
 \end{document}

@@ -1,9 +1,9 @@
-\babel@toc {portuguese}{}
- \contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{15}{chapter.1} 
+\babel@toc {english}{}
+ \contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1} 
  \contentsline {section}{\numberline {1.1}Objetivo}{15}{section.1.1} 
  \contentsline {section}{\numberline {1.2}Motiva\c c\~ao}{15}{section.1.2} 
  \contentsline {section}{\numberline {1.3}Organiza\c c\~ao do trabalho}{16}{section.1.3} 
- \contentsline {chapter}{\numberline {2}Revis\~ao da Literatura}{17}{chapter.2} 
+ \contentsline {chapter}{\numberline {2}Objective}{17}{chapter.2} 
  \contentsline {section}{\numberline {2.1}Turbinas}{17}{section.2.1} 
  \contentsline {subsection}{\numberline {2.1.1}Modelos de Perdas}{18}{subsection.2.1.1} 
  \contentsline {section}{\numberline {2.2}Algoritmo Gen\'etico}{18}{section.2.2} 
@@ -14,14 +14,14 @@
  \contentsline {subsection}{\numberline {2.3.4}Limites das Vari\'aveis de Projeto}{20}{subsection.2.3.4} 
  \contentsline {subsection}{\numberline {2.3.5}Modelagem}{20}{subsection.2.3.5} 
  \contentsline {subsection}{\numberline {2.3.6}NSGA-II}{21}{subsection.2.3.6} 
- \contentsline {chapter}{\numberline {3}Metodologia}{22}{chapter.3} 
+ \contentsline {chapter}{\numberline {3}Literature Survey}{22}{chapter.3} 
  \contentsline {section}{\numberline {3.1}Defini\c c\~ao do problema}{22}{section.3.1} 
- \contentsline {chapter}{\numberline {4}Discuss\~ao de Resultados}{23}{chapter.4} 
- \contentsline {chapter}{\numberline {5}Conclus\~ao}{24}{chapter.5} 
- \contentsline {chapter}{Refer\^encias}{25}{chapter.6} 
- \SetAppendixTocName {Ap\^endice} 
+ \contentsline {chapter}{\numberline {4}Discussion}{23}{chapter.4} 
+ \contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.5} 
+ \contentsline {chapter}{Bibliography}{25}{chapter.6} 
+ \SetAppendixTocName {Appendix} 
  \contentsline {chapter}{\numberline {A}T\'opicos de Dilema Linear}{29}{appendix.A} 
  \contentsline {section}{\numberline {A.1}Uma Primeira Se\c c\~ao para o Ap\^endice}{29}{section.A.1} 
-\SetAppendixTocName {Anexo}
+\SetAppendixTocName {Annex}
  \contentsline {chapter}{\numberline {A}Exemplo de um Primeiro Anexo}{30}{annex.a} 
  \contentsline {section}{\numberline {A.1}Uma Se\c c\~ao do Primeiro Anexo}{30}{section.a.1} 

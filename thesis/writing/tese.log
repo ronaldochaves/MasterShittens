@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.5)  13 FEB 2021 21:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.17)  17 FEB 2021 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tese.tex
 (./tese.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (./itathesis.cls
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (./itathesis.cls
 Document Class: itathesis 2006/03/10 v2.0 Classe de documento com padr\GenericE
 rror {(inputenc)                }{Package inputenc Error: Invalid UTF-8 byte "F
 5}{See the inputenc package documentation for explanation.}{The document does n
@@ -14,16 +14,15 @@ ot appear to be in UTF-8 encoding.\MessageBreak Try adding \UseRawInputEncoding
 package [latin1]{inputenc}\MessageBreak in the document preamble.\MessageBreak 
 Alternatively, save the file in UTF-8 using your editor or another tool}es do I
 TA
-(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-(./defaults.def) (./msc.def)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)) (./defaults.def)
+(./msc.def) (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -39,7 +38,7 @@ File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count176
 \calc@Bcount=\count177
@@ -52,49 +51,50 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count178
 \calc@Cskip=\skip51
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/03/22 3.42 The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2020/03/22 3.42 Babel switching mechanism
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/03/22 3.42 Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
 \babel@savecnt=\count179
 \U@D=\dimen137
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count180
 )
+Package babel Info: \l@british = using hyphenrules for english
+(babel)             (\language0) on input line 82.
+Package babel Info: \l@UKenglish = using hyphenrules for english
+(babel)             (\language0) on input line 83.
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 108.
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-portuges/portuges.ldf
-Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
-Package babel Info: Making " an active character on input line 145.
+Package babel Info: \l@australian = using hyphenrules for english
+(babel)             (\language0) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for english
+(babel)             (\language0) on input line 108.
 ))
-(./itabr.babel) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+(./itaeng.babel) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latin1.def
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip52
@@ -107,31 +107,31 @@ s
 \f@nch@O@olf=\skip59
 \f@nch@O@orf=\skip60
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks17
+\@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lastpage/lastpage.sty
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks17
 )
 \captionmargin=\dimen138
 \captionmargin@=\dimen139
@@ -145,7 +145,7 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count181
 \c@continuedfloat=\count182
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip61
 \LTright=\skip62
@@ -161,19 +161,19 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count185
 \c@LT@tables=\count186
 \c@LT@chunks=\count187
-\LT@p@ftn=\toks19
+\LT@p@ftn=\toks18
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen146
 \ar@mcellbox=\box49
 \extrarowheight=\dimen147
-\NC@list=\toks20
+\NC@list=\toks19
 \extratabsurround=\skip65
 \backup@length=\skip66
 \ar@cellbox=\box50
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen148
 \TX@old@table=\dimen149
@@ -181,90 +181,72 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@target=\dimen151
 \TX@delta=\dimen152
 \TX@cols=\count188
-\TX@ftn=\toks21
+\TX@ftn=\toks20
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/datetime2/datetime2.sty
-Package: datetime2 2020/03/02 v1.5.6 (NLCT) date and time formats
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2019/11/11 v1.5.5 (NLCT) date and time formats
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tracklang/tracklang.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/tracklang/tracklang.tex))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count189
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
 )
 \XKV@depth=\count190
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/datetime2-portuges/datetime2-port
-uges.ldf
-File: datetime2-portuges.ldf 2018/08/21 v1.1
- (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/datetime2-portuges/datetime2-port
-uges-ascii.ldf
-File: datetime2-portuges-ascii.ldf 2018/08/21 v1.1
-))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/datetime2-english/datetime2-engli
-sh.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english.ld
+f
 File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/datetime2-english/datetime2-engli
-sh-base.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english-ba
+se.ldf
 File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/datetime2-english/datetime2-en-US
-.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-en-US.ldf
 File: datetime2-en-US.ldf 2019/10/21 v1.05 (NLCT)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/datetime2/datetime2-calc.sty
-Package: datetime2-calc 2020/03/02 v1.5.6 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/datetime2/datetime2-calc.sty
+Package: datetime2-calc 2019/11/11 v1.5.5 (NLCT)
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
-ode.tex
-\pgfkeys@tmptoks=\toks26
-)))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
-\pgfutil@everybye=\toks27
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks25
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
 \pgfutil@tempdima=\dimen153
 \pgfutil@tempdimb=\dimen154
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box51
-(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
-tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 \pgfcalendarcurrentjulian=\count191
 \pgf@cal@easter@Y=\count192
 \pgf@cal@easter@G=\count193
@@ -278,83 +260,84 @@ File: pgfcalendar.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@cal@easter@julianday=\count267
 ))
 \@dtm@julianday=\count268
-)) (./makeglo.sty
+))
+(./makeglo.sty
 Package: makeglo 
 \glossentrylen=\skip67
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language86
+\langwohyphens=\language3
 LaTeX Info: Redefining \_ on input line 43.
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/makeidx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen155
 \Hy@linkcounter=\count269
 \Hy@pagecounter=\count270
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count271
+\pdfmajorversion=\count272
 Package hyperref Info: Option `debug' set `true' on input line 4421.
 
 
@@ -374,36 +357,38 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing ON on input line 4565.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/backref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2020/01/14 v1.40 Bibliographical back referencing
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 ))
-\c@Hy@tempcnt=\count272
+\c@Hy@tempcnt=\count273
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen156
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count273
+\Fld@menulength=\count274
 \Field@Width=\dimen157
 \Fld@charsize=\dimen158
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -416,37 +401,37 @@ Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count274
-\c@Item=\count275
-\c@Hfootnote=\count276
+\Hy@abspage=\count275
+\c@Item=\count276
+\c@Hfootnote=\count277
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
-\Fld@listcount=\count277
-\c@bookmark@seq@number=\count278
+\Fld@listcount=\count278
+\c@bookmark@seq@number=\count279
 \Hy@SectionHShift=\skip68
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/ae/ae.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ae/ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
@@ -454,15 +439,15 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count279
-\Gm@cntv=\count280
-\c@Gm@tempcnt=\count281
+\Gm@cnth=\count280
+\Gm@cntv=\count281
+\c@Gm@tempcnt=\count282
 \Gm@bindingoffset=\dimen161
 \Gm@wd@mp=\dimen162
 \Gm@odd@mp=\dimen163
@@ -471,14 +456,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen166
 \Gm@layouthoffset=\dimen167
 \Gm@layoutvoffset=\dimen168
-\Gm@dimlist=\toks28
-)
-(./abntcite.sty (./cvs-id.def)
+\Gm@dimlist=\toks27
+) (./abntcite.sty
+(./cvs-id.def)
 Package: abntcite 2003/10/13 v1.26 Chamadas de referencias no texto (NBR10520)
  (./abntex-abrev.sty (./cvs-id.def)
 Package: abntex-abrev 2003/10/13 v1.3 Abreviacoes
-
-(./nbr10522-1988.def (./cvs-id.def)
+ (./nbr10522-1988.def
+(./cvs-id.def)
 File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
 88)
 ) (./abntex-abrev-pt_BR.def (./cvs-id.def)
@@ -490,53 +475,51 @@ File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002
 )
 \minimumbiblabelwidth=\skip69
 \ABCIauxlen=\skip70
-\c@ABCIaux=\count282
-\c@ABCImax=\count283
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/relsize/relsize.sty
+\c@ABCIaux=\count283
+\c@ABCImax=\count284
+ (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip71
 LaTeX Info: Redefining \newblock on input line 562.
 LaTeX Info: Redefining \cite on input line 589.
-\ABCItoken=\toks29
+\ABCItoken=\toks28
 )
-\c@mecounter=\count284
-\c@kwcipcounter=\count285
-\nohyphen=\language87
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/epsfig.sty
+\c@mecounter=\count285
+\c@kwcipcounter=\count286
+\nohyphen=\language4
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen169
 \epsfysize=\dimen170
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip72
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
+\@emptytoks=\toks29
 \ex@=\dimen171
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen172
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count286
+\inf@bad=\count287
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count287
-\leftroot@=\count288
+\uproot@=\count288
+\leftroot@=\count289
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count289
-\DOTSCASE@=\count290
+\classnum@=\count290
+\DOTSCASE@=\count291
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -545,61 +528,61 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen173
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count291
-\c@MaxMatrixCols=\count292
+\macc@depth=\count292
+\c@MaxMatrixCols=\count293
 \dotsspace@=\muskip17
-\c@parentequation=\count293
-\dspbrk@lvl=\count294
-\tag@help=\toks31
-\row@=\count295
-\column@=\count296
-\maxfields@=\count297
-\andhelp@=\toks32
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
+\tag@help=\toks30
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
+\andhelp@=\toks31
 \eqnshift@=\dimen174
 \alignsep@=\dimen175
 \tagshift@=\dimen176
 \tagwidth@=\dimen177
 \totwidth@=\dimen178
 \lineht@=\dimen179
-\@envbody=\toks33
+\@envbody=\toks32
 \multlinegap=\skip73
 \multlinetaggap=\skip74
-\mathdisplay@stack=\toks34
+\mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/subfig/subfig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count298
+\c@KVtest=\count299
 \sf@farskip=\skip75
 \sf@captopadj=\dimen180
 \sf@capskip=\skip76
 \sf@nearskip=\skip77
-\c@subfigure=\count299
-\c@subfigure@save=\count300
-\c@lofdepth=\count301
-\c@subtable=\count302
-\c@subtable@save=\count303
-\c@lotdepth=\count304
+\c@subfigure=\count300
+\c@subfigure@save=\count301
+\c@lofdepth=\count302
+\c@subtable=\count303
+\c@subtable@save=\count304
+\c@lotdepth=\count305
 \sf@top=\skip78
 \sf@bottom=\skip79
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip80
-\multirow@cntb=\count305
+\multirow@cntb=\count306
 \multirow@dima=\skip81
 \bigstrutjot=\dimen181
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count306
-\float@exts=\toks35
+\c@float@type=\count307
+\float@exts=\toks34
 \float@box=\box54
-\@float@everytoks=\toks36
+\@float@everytoks=\toks35
 \@floatcapt=\box55
 )
 \@glossaryfile=\write3
@@ -607,9 +590,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 
 
 Writing glossary file tese.glo 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count307
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count308
 \l__pdf_internal_box=\box56
 )
 (./tese.aux)
@@ -633,7 +616,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Trying to load font information for T1+aer on input line 11
 1.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/ae/t1aer.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )
 Package lastpage Info: Please have a look at the pageslts package at
@@ -645,53 +628,53 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
+\scratchcounter=\count309
 \scratchdimen=\dimen182
 \scratchbox=\box57
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count311
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count312
 \MPscratchDim=\dimen183
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks38
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks37
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring ON on input line 111.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
-ty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count314
+\c@section@level=\count315
 )
 LaTeX Info: Redefining \ref on input line 111.
 LaTeX Info: Redefining \pageref on input line 111.
 LaTeX Info: Redefining \nameref on input line 111.
- (./tese.out) (./tese.out)
+
+(./tese.out) (./tese.out)
 \@outlinefile=\write4
 \openout4 = `tese.out'.
 
@@ -730,17 +713,17 @@ Package hyperref Info: Anchor `Doc-Start' on input line 111.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@butlastpage=\count315
+\c@butlastpage=\count316
 Package hyperref Info: Anchor `titulo.0' on input line 113.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 113
 .
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 113
 .
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package hyperref Info: Anchor `page.i' on input line 113.
@@ -748,7 +731,7 @@ Package hyperref Info: Anchor `page.i' on input line 113.
 
 
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package hyperref Info: Anchor `cip.0' on input line 113.
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--113
@@ -763,7 +746,7 @@ Package hyperref Info: Anchor `page.iii' on input line 113.
 Package hyperref Info: Anchor `dedication.0' on input line 116.
  (./Cap0/dedicatoria.tex)
 Underfull \hbox (badness 4660) in paragraph at lines 3--118
-[]\T1/aer/m/n/12 Aos ami-gos da Gra-du-a-ção e Pós-
+[]\T1/aer/m/n/12 Aos ami-gos da Grad-u-ação e Pós-
  []
 
 Package hyperref Info: Anchor `page.iv' on input line 118.
@@ -779,7 +762,7 @@ Package hyperref Info: Anchor `epigrafe.0' on input line 127.
 LaTeX Font Info:    Trying to load font information for T1+aess on input line 1
 31.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/ae/t1aess.fd
+(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
@@ -788,10 +771,10 @@ Package hyperref Info: Anchor `page.vi' on input line 139.
  [6]
 Package hyperref Info: Anchor `chapter*.2' on input line 139.
 Package hyperref Info: Anchor `resumo.0' on input line 139.
-
-(./Cap0/resumo.tex)
+ (./Cap0/resumo.tex)
 Package hyperref Info: Anchor `page.vii' on input line 145.
- [7
+
+[7
 
 ]
 Package hyperref Info: Anchor `chapter*.3' on input line 145.
@@ -821,7 +804,7 @@ Package hyperref Info: Anchor `listatabelas.0' on input line 154.
 \openout6 = `tese.lot'.
 
 Package hyperref Info: Anchor `page.x' on input line 157.
-[10
+ [10
 
 ]
 Package hyperref Info: Anchor `chapter*.6' on input line 157.
@@ -830,7 +813,8 @@ Package hyperref Info: Anchor `listaabreviaturas.0' on input line 157.
 \tf@lof=\write7
 \openout7 = `tese.lof'.
 
- (./Cap0/listaabreviaturas.tex
+
+(./Cap0/listaabreviaturas.tex
 Package hyperref Info: Anchor `table.0.1' on input line 15.
 )
 Package hyperref Info: Anchor `page.xi' on input line 161.
@@ -843,12 +827,12 @@ Package hyperref Info: Anchor `listasimbolos.0' on input line 161.
 \tf@lof=\write8
 \openout8 = `tese.lof'.
 
-
-(./Cap0/listasimbolos.tex
+ (./Cap0/listasimbolos.tex
 Package hyperref Info: Anchor `table.0.2' on input line 9.
 )
 Package hyperref Info: Anchor `page.xii' on input line 165.
- [12
+
+[12
 
 ]
 Package hyperref Info: Anchor `chapter*.8' on input line 165.
@@ -954,9 +938,9 @@ Package `hyperref' Info: End of reference (link) `section.a.1', line 27.
 ]
 Package hyperref Info: Anchor `chapter.1' on input line 170.
 
-Cap\'{\i }tulo 1.
-pdftex: bookmark at 170: {1} {\numberline{1}Introdu\c c\~ao} {chapter.1} {0} {t
-oc} 
+Chapter 1.
+pdftex: bookmark at 170: {1} {\numberline{1}Introduction} {chapter.1} {0} {toc}
+ 
 (./Cap1/cap1.tex
 Package hyperref Info: Anchor `section.1.1' on input line 1.
 
@@ -977,9 +961,8 @@ Package hyperref Info: Anchor `page.16' on input line 173.
  [16]
 Package hyperref Info: Anchor `chapter.2' on input line 173.
 
-Cap\'{\i }tulo 2.
-pdftex: bookmark at 173: {2} {\numberline{2}Revis\~ao da Literatura} {chapter.2
-} {0} {toc} 
+Chapter 2.
+pdftex: bookmark at 173: {2} {\numberline{2}Objective} {chapter.2} {0} {toc} 
 (./Cap2/cap2.tex
 Package hyperref Info: Anchor `section.2.1' on input line 1.
 
@@ -1054,9 +1037,15 @@ pdftex: bookmark at 23: {2.2} {\numberline{2.2}Algoritmo Gen\'etico} {section.2
 Package hyperref Info: Anchor `section.2.3' on input line 26.
 pdftex: bookmark at 26: {2.3} {\numberline{2.3}Otimiza\c c\~ao} {section.2.3} {
 1} {toc} 
+
+Overfull \hbox (13.46965pt too wide) in paragraph at lines 29--30
+[]\T1/aer/m/n/12 Procedimento de for-mu-lação do prob-lema tem o propósito de c
+riar um mod-elo matemático
+ []
+
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 31.
 Package hyperref Info: Anchor `figure.caption.9' on input line 33.
-<Cap2/od_flowchart.png, id=311, 643.40375pt x 635.37375pt>
+<Cap2/od_flowchart.png, id=310, 643.40375pt x 635.37375pt>
 File: Cap2/od_flowchart.png Graphic file (type png)
 <use Cap2/od_flowchart.png>
 Package pdftex.def Info: Cap2/od_flowchart.png  used on input line 35.
@@ -1262,9 +1251,9 @@ Package `hyperref' Info: End of reference (cite) `cite.Deb2002', line 90.
 ]
 Package hyperref Info: Anchor `chapter.3' on input line 176.
 
-Cap\'{\i }tulo 3.
-pdftex: bookmark at 176: {3} {\numberline{3}Metodologia} {chapter.3} {0} {toc} 
-
+Chapter 3.
+pdftex: bookmark at 176: {3} {\numberline{3}Literature Survey} {chapter.3} {0} 
+{toc} 
 (./Cap3/cap3.tex
 Package hyperref Info: Anchor `section.3.1' on input line 1.
 
@@ -1277,9 +1266,8 @@ Package hyperref Info: Anchor `page.22' on input line 179.
 ]
 Package hyperref Info: Anchor `chapter.4' on input line 179.
 
-Cap\'{\i }tulo 4.
-pdftex: bookmark at 179: {4} {\numberline{4}Discuss\~ao de Resultados} {chapter
-.4} {0} {toc} 
+Chapter 4.
+pdftex: bookmark at 179: {4} {\numberline{4}Discussion} {chapter.4} {0} {toc} 
 (./Cap4/cap4.tex)
 Package hyperref Info: Anchor `page.23' on input line 182.
  [23
@@ -1287,9 +1275,8 @@ Package hyperref Info: Anchor `page.23' on input line 182.
 ]
 Package hyperref Info: Anchor `chapter.5' on input line 182.
 
-Cap\'{\i }tulo 5.
-pdftex: bookmark at 182: {5} {\numberline{5}Conclus\~ao} {chapter.5} {0} {toc} 
-
+Chapter 5.
+pdftex: bookmark at 182: {5} {\numberline{5}Conclusion} {chapter.5} {0} {toc} 
 (./Cap5/cap5.tex) (./tese.bbl (./tese.brf)
 \tf@brf=\write10
 \openout10 = `tese.brf'.
@@ -1301,7 +1288,7 @@ Package hyperref Info: Anchor `page.24' on input line 3.
 Package hyperref Info: Anchor `chapter*.10' on input line 3.
 Package hyperref Info: Anchor `chapter.6' on input line 3.
 
-pdftex: bookmark at 3: {6} {Refer\^encias} {chapter.6} {0} {toc} 
+pdftex: bookmark at 3: {6} {Bibliography} {chapter.6} {0} {toc} 
 Package hyperref Info: Anchor `cite.NooriRahimAbadi2017' on input line 16.
 Package hyperref Info: Anchor `cite.Agromayor2019' on input line 24.
 Package hyperref Info: Anchor `cite.Amano2003' on input line 30.
@@ -1347,7 +1334,7 @@ Package hyperref Info: Anchor `page.28' on input line 190.
  [28]
 Package hyperref Info: Anchor `appendix.A' on input line 191.
 
-Ap\^endice A.
+Appendix A.
 pdftex: bookmark at 191: {A} {\numberline{A}T\'opicos de Dilema Linear} {append
 ix.A} {0} {toc} 
 (./ApeA/apendiceA.tex
@@ -1363,7 +1350,7 @@ Package hyperref Info: Anchor `page.29' on input line 195.
 ]
 Package hyperref Info: Anchor `annex.a' on input line 196.
 
-Anexo A.
+Annex A.
 pdftex: bookmark at 196: {A} {\numberline{A}Exemplo de um Primeiro Anexo} {anne
 x.a} {0} {toc} 
 (./AneA/anexoA.tex
@@ -1380,7 +1367,43 @@ Package hyperref Info: Anchor `page.30' on input line 216.
 \bottommargin=\skip82
 \rightmarginn=\skip83
 Package hyperref Info: Anchor `bla.0' on input line 216.
- (./Cap0/resumo.tex) (./Cap0/resumo.tex) (./Cap0/resumo.tex)
+
+! Undefined control sequence.
+\FRDitapalavraapresentacaobabel ...\coadvisorRole 
+                                                  : \coadvisorTitle ~\coadvi...
+l.216 \itaFRD
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Cap0/resumo.tex)
+! Undefined control sequence.
+\FRDitapalavraapresentacaobabel ...\coadvisorRole 
+                                                  : \coadvisorTitle ~\coadvi...
+l.216 \itaFRD
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Cap0/resumo.tex)
+! Undefined control sequence.
+\FRDitapalavraapresentacaobabel ...\coadvisorRole 
+                                                  : \coadvisorTitle ~\coadvi...
+l.216 \itaFRD
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Cap0/resumo.tex)
 Overfull \hbox (74.53033pt too wide) in paragraph at lines 216--217
 [][] 
  []
@@ -1397,7 +1420,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 4DC6A7FE83D4E4BD32EB13C7B675BB8F;2379.
+(rerunfilecheck)             Checksum: 673B199B3A1572BD4C3853EB9990D5C3;2346.
 Package rerunfilecheck Info: File `tese.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1409,32 +1432,30 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 15226 strings out of 480608
- 258958 string characters out of 5903631
- 555967 words of memory out of 5000000
- 30472 multiletter control sequences out of 15000+600000
- 587872 words of font info for 118 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 59i,12n,79p,1081b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
-ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/202
-0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on tese.pdf (31 pages, 344942 bytes).
+ 15078 strings out of 483183
+ 253881 string characters out of 5966292
+ 542296 words of memory out of 5000000
+ 29472 multiletter control sequences out of 15000+600000
+ 584226 words of font info for 114 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 59i,11n,79p,1081b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/roncha/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.60
+0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on tese.pdf (31 pages, 330116 bytes).
 PDF statistics:
  572 PDF objects out of 1000 (max. 8388607)
  514 compressed objects within 6 object streams
