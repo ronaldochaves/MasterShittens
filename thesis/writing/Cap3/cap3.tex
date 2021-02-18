@@ -1,4 +1,96 @@
-\section{Definição do problema}
+\section{Turbines}
+Uma modelagem simplificada e uni-dimensional para projetos de turbomáquinas pode produzir informações qualitativas de grande valor aos projetistas nas fases iniciais de desenvolvimento. Como exemplo, tendências específicas sobre o desempenho e funcionamento de uma turbina facilita a determinação da geometria básica da máquina (dimensões e formas), com baixo uso de recursos temporais e computacionais.
+
+A primeira etapa é uma análise criteriosa dos requisitos e parâmetros do projeto. A ánalise do ciclo do motor vai fornecer informações como condições de entrada, razão de pressão, vazão e rotação.
+
+Lista de referências pretendida para elaboração desta seção:
+\begin{enumerate}
+    \item \cite{Saravanamuttoo2017}
+    \item Notas de aula ME-211
+    \item \cite{IgorGeorge2020}
+    \item \cite{Schobeiri2018}
+    \item \cite{Denton1993}
+    \item \cite{Maia2019}
+    \item \cite{Denton1998}
+    \item \cite{Craig1970}
+    \item \cite{Leach1983}
+    \item \cite{Kadhim2018}
+    \item \cite{DentonWallis1998}
+\end{enumerate}
+
+\subsection{Loss Models}
+
+\section{Optimization}
+[ref] Optimization for Engineering Design Algorithms and Examples
+
+Procedimento de formulação do problema tem o propósito de criar um modelo matemático do problema de design ótimo, a fim de que possa ser solucionado usando um algoritmo de otimização.
+
+Inicialmente, deve-se perceber a necessidade de usar uma otimização nesse problema específico de projeto. Posto isso, deve-se escolher as variáveis de projeto associadas ao problema de projeto da Turbina. Em seguida, envolver outras considerações como restrições, função objetivo e intervalo das variáveis. A figura \ref{fig:od_flowchart} traz um fluxograma típico para boa definição de um problema de otimização. Uma vez definido e declarado o problema, escolhe-se qual algoritmo de otimização será usado.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Cap3/od_flowchart.png}
+    \caption{Fluxograma do processo de design ótimo.}
+    \label{fig:od_flowchart}
+\end{figure}
+
+\subsection{Design Variables}
+Sensibilidade de variáveis de projeto: O quão `importante' é uma variável com relação a uma função objetivo. É possível que a mesma variável seja mais sensível em um aspecto do que em outro.
+
+\subsection{Objective Function}
+É interessante evitar, por questão de simplificação do processo computacional, o problema de otimização com várias funções objetivos. Usualmente, escolhe-se a principal delas como função objetivo e modifica-se as outras em formas de restrições do problema, deixando elas em certo um intervalo.
+
+\subsection{Constraints}
+
+\subsection{Design Variables Bounds}
+Usa-se uma primeiro chute dos limites das variáveis, considerando que a solução ótima está dentro desse intervalo. Em seguida, analisa-se o resultado da primeira simulação do algoritmo de otimização. A partir daí, faz-se os ajustes necessários no intervalo.
+
+\subsection{Modeling}
+Normalmente, a modelagem matemática do problema de otimização não é facilmente atingível. Uma aternativa é fazer uma modificação nas equações governantes, principalmente quando se possui valores experimentais e observáveis do sistema. Assim, a formulação vai levar em consideração valores simulados \textit{versus} valores observados, onde cria-se variáveis de projeto de maneira auxiliar (espaço de busca $\beta$, nesse caso), sendo a função objetivo $f(\beta)$ da equação \ref{eq:reformulation}, a qual deve ser minimizada. Tal processo tem muita similaridade com a metodologia de regressão linear, onde $f$ representa o erro.
+
+\begin{equation}
+f(\beta) = \left(E_{observed} - E_{simulated}\right)^2
+\label{eq:reformulation}
+\end{equation}
+
+De acordo com [ref] Optimization for Engineering Design Algorithms and Examples, a inclusão de variáveis de projeto artificais frequentemente com que o entendimento do problema seja simplificado, incluindo sua modelagem matemática.
+
+Lista de referências pretendida para elaboração desta seção:
+\begin{enumerate}
+    \item \cite{Mengistu2004}
+    \item \cite{Asgarshamsi2014}
+    \item \cite{Thorn2016}
+    \item \cite{Arabnia2009}
+    \item \cite{Cervantes2018}
+    \item \cite{Juangphanich2019}
+    \item \cite{Juangphanich2017}
+    \item \cite{Agromayor2019}
+    \item \cite{NooriRahimAbadi2017}
+    \item \cite{Aminyavari2016}
+    \item \cite{Ba2019}
+    \item \cite{Lonard2008}
+    \item \cite{ksz2010}
+    \item \cite{Arabnia2012}
+    \item \cite{Jenkins1982}
+    \item \cite{Jenkins1983}
+    \item \cite{Cervantes2018thesis}
+    \item \cite{Sivashanmugam2011}
+    \item \cite{Mengistu2005}
+    \item \cite{Amano2003}
+    \item \cite{Rao2012}
+    \item \cite{Deb2012}
+\end{enumerate}
+
+\section{Problem Declaration}
 A tarefa de otimização será cumprida com o uso de algoritmos genéticos, enquanto que o projeto preliminar da turbina será simplificado e uni-dimensional.
 
-Pretende-se utilizar um estudo de caso mais simples com o objetivo de entender o funcionamento da ferramenta de otimização e familiarização do método. Tal exemplo base pode ser feito considerando apenas uma variável de projeto. Após essa fase, o processo formulado como um todo deverá ser resolvido. Pretende-se limitar a quantidade de variáveis de projeto para 3, sendo estas facilmente adimensionalizadas para fim de comparação.
+Pretende-se utilizar um estudo de caso mais simples com o objetivo de entender o funcionamento da ferramenta de otimização e familiarização do método. Tal exemplo base pode ser feito considerando apenas uma variável de projeto. Após essa fase, o processo formulado como um todo deverá ser resolvido. Pretende-se limitar a quantidade de variáveis de projeto para X, sendo estas facilmente adimensionalizadas para fim de comparação.
+
+\section{Genetic Algorithms}
+De acordo com a [ref] Optimization for Engineering Design Algorithms and Examples, Algoritmos Genéticos (AG, daqui em diante) permitem uma maneira fácil de encontrar múltiplas soluções ótimas simultaneamente em uma única rodada de simulação. Em se tratando de problemas de otimização multiobjetivo, surge um conjunto de soluções ótimas conhecida como Soluções Ótimas de Pareto ou Fronteira de Pareto. Também, AG demonstra um maneira de lidar com múltiplos objetivos e ajuda a encontrar multiplas soluções ótimas de Pareto simultaneamente.
+
+\subsection{NSGA-II}
+Lista de referências pretendida para elaboração desta seção:
+\begin{enumerate}
+    \item \cite{Deb2002}
+\end{enumerate}
