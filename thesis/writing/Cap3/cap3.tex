@@ -1,12 +1,12 @@
 \section{Turbines}
-Uma modelagem simplificada e uni-dimensional para projetos de turbomáquinas pode produzir informações qualitativas de grande valor aos projetistas nas fases iniciais de desenvolvimento. Como exemplo, tendências específicas sobre o desempenho e funcionamento de uma turbina facilita a determinação da geometria básica da máquina (dimensões e formas), com baixo uso de recursos temporais e computacionais.
+A meanline and simplified approach for turbomachine design can produce qualitative information of great value to the designers and engineers in the first phase of development with small computational cost as drawback. For instance, specific trends about turbine performance and operation ease the definition of machine basic geometry (dimensions and shapes), with low usage of temporal and computational resources.
 
-A primeira etapa é uma análise criteriosa dos requisitos e parâmetros do projeto. A ánalise do ciclo do motor vai fornecer informações como condições de entrada, razão de pressão, vazão e rotação.
+The first phase consists of a detailed analysis of main requirements of the project. The engine cycle analysis provides information as inlet conditions, pressure ratio, mass flow and rotation. These variables are good candidates to be part of the inlet vector of a \textbf{black box} scheme.
 
-Lista de referências pretendida para elaboração desta seção:
+The following relation of previous work are intended to be studied in this part of the dissertation:
 \begin{enumerate}
     \item \cite{Saravanamuttoo2017}
-    \item Notas de aula ME-211
+    \item ME-211 class notes
     \item \cite{IgorGeorge2020}
     \item \cite{Schobeiri2018}
     \item \cite{Denton1993}
@@ -16,34 +16,41 @@ Lista de referências pretendida para elaboração desta seção:
     \item \cite{Leach1983}
     \item \cite{Kadhim2018}
     \item \cite{DentonWallis1998}
+    \item \cite{Ovsyannikov1971}
+    \item \cite{Belyaev1999}
 \end{enumerate}
 
 \subsection{Loss Models}
 
 \section{Optimization}
-[ref] Optimization for Engineering Design Algorithms and Examples
+The procedure of problem formulation starts on creating a mathematical model of the optimal design problem, in order to solve it by an optimization algorithm.
 
-Procedimento de formulação do problema tem o propósito de criar um modelo matemático do problema de design ótimo, a fim de que possa ser solucionado usando um algoritmo de otimização.
+According to \cite{Deb2012} about problem formulation, it is necessary to realize firstly the need of using an optimization in this specific problem. The author also illustrate that optimization algorithms are routinely used in aerospace design activities to minimize the overall weight, since every element or component adds to to the overall weight of the aircraft or spacecraft. Thus, the first step of this problem formulation is already satisfied.
 
-Inicialmente, deve-se perceber a necessidade de usar uma otimização nesse problema específico de projeto. Posto isso, deve-se escolher as variáveis de projeto associadas ao problema de projeto da Turbina. Em seguida, envolver outras considerações como restrições, função objetivo e intervalo das variáveis. A figura \ref{fig:od_flowchart} traz um fluxograma típico para boa definição de um problema de otimização. Uma vez definido e declarado o problema, escolhe-se qual algoritmo de otimização será usado.
+Then, the next step is to choose the important design variables associated with the turbine problem. As said before, these variables can be fluid inlet thermodynamics properties conditions, pressure ratio through turbine stage, mass flow and rotation, since they came from requirements of high order components after engine cycle analysis.
+
+In addition, the formulation of optimal design problems involves other considerations, such as constraints, objective function, and variable bounds, as suggested by \cite{Deb2012}.
+
+The figure \ref{fig:od_flowchart} shows a sumarizing flowchart about the procedure illustrated previously. Once declared and defined the optimal design problem, it is chosen the suitable optimization algorithm.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\textwidth]{Cap3/od_flowchart.png}
-    \caption{Fluxograma do processo de design ótimo.}
+    \caption{Flowchart of the optimal design procedure. Source \cite{Deb2012}.}
     \label{fig:od_flowchart}
 \end{figure}
 
 \subsection{Design Variables}
-Sensibilidade de variáveis de projeto: O quão `importante' é uma variável com relação a uma função objetivo. É possível que a mesma variável seja mais sensível em um aspecto do que em outro.
+\subsubsection{Sensibility of design variables}
+How impactant can be a variable in relation to an objective function. It is possible that a variable is more sensitive to an aspect than others.
 
 \subsection{Objective Function}
-É interessante evitar, por questão de simplificação do processo computacional, o problema de otimização com várias funções objetivos. Usualmente, escolhe-se a principal delas como função objetivo e modifica-se as outras em formas de restrições do problema, deixando elas em certo um intervalo.
+It is suggested by \cite{Deb2012} the avoidance of several objective functions. Usually, it is selected the main of them and set it as unique objective function. Modification of the other functions comes along in order to force restrictions to the problem, bounding them into specific range, that was \textit{a priori} analised.
 
 \subsection{Constraints}
 
 \subsection{Design Variables Bounds}
-Usa-se uma primeiro chute dos limites das variáveis, considerando que a solução ótima está dentro desse intervalo. Em seguida, analisa-se o resultado da primeira simulação do algoritmo de otimização. A partir daí, faz-se os ajustes necessários no intervalo.
+It is set the bounds for design variables based on the previous analysis, and considering that the optimal solution is inside this range. Then, it is analised the firsts results and reset the interval for more precise results.
 
 \subsection{Modeling}
 Normalmente, a modelagem matemática do problema de otimização não é facilmente atingível. Uma aternativa é fazer uma modificação nas equações governantes, principalmente quando se possui valores experimentais e observáveis do sistema. Assim, a formulação vai levar em consideração valores simulados \textit{versus} valores observados, onde cria-se variáveis de projeto de maneira auxiliar (espaço de busca $\beta$, nesse caso), sendo a função objetivo $f(\beta)$ da equação \ref{eq:reformulation}, a qual deve ser minimizada. Tal processo tem muita similaridade com a metodologia de regressão linear, onde $f$ representa o erro.

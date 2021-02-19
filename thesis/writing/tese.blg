@@ -16,53 +16,69 @@ Warning--entry type for "Leach1983" isn't style-file defined
 --line 72 of file Referencias/referencias.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Too many commas in name 1 of "Belyaev, E. N., Tchvanov, V. K. and Tchervakov, V. V." for entry Belyaev1999
+while executing---line 2095 of file abnt-alf.bst
+Too many commas in name 1 of "Belyaev, E. N., Tchvanov, V. K. and Tchervakov, V. V." for entry Belyaev1999
+while executing---line 2095 of file abnt-alf.bst
+Too many commas in name 1 of "Belyaev, E. N., Tchvanov, V. K. and Tchervakov, V. V." for entry Belyaev1999
+while executing---line 2095 of file abnt-alf.bst
+Too many commas in name 1 of "Belyaev, E. N., Tchvanov, V. K. and Tchervakov, V. V." for entry Belyaev1999
+while executing---line 2095 of file abnt-alf.bst
+Too many commas in name 1 of "Belyaev, E. N., Tchvanov, V. K. and Tchervakov, V. V." for entry Belyaev1999
+while executing---line 2095 of file abnt-alf.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Too many commas in name 1 of "Belyaev, E. N., Tchvanov, V. K. and Tchervakov, V. V." for entry Belyaev1999
+while executing---line 2150 of file abnt-alf.bst
+Too many commas in name 1 of "Belyaev, E. N., Tchvanov, V. K. and Tchervakov, V. V." for entry Belyaev1999
+while executing---line 2150 of file abnt-alf.bst
+Too many commas in name 1 of "Belyaev, E. N., Tchvanov, V. K. and Tchervakov, V. V." for entry Belyaev1999
+while executing---line 2150 of file abnt-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 38 entries,
+You've used 40 entries,
             6480 wiz_defined-function locations,
-            1397 strings with 16611 characters,
-and the built_in function-call counts, 55216 in all, are:
-= -- 7461
-> -- 1051
-< -- 915
-+ -- 1327
-- -- 317
-* -- 2963
-:= -- 5546
-add.period$ -- 135
-call.type$ -- 40
-change.case$ -- 373
-chr.to.int$ -- 79
-cite$ -- 33
-duplicate$ -- 6395
-empty$ -- 2184
-format.name$ -- 1560
-if$ -- 12083
+            1411 strings with 16965 characters,
+and the built_in function-call counts, 56787 in all, are:
+= -- 7585
+> -- 1115
+< -- 916
++ -- 1351
+- -- 337
+* -- 3076
+:= -- 5757
+add.period$ -- 143
+call.type$ -- 42
+change.case$ -- 394
+chr.to.int$ -- 81
+cite$ -- 35
+duplicate$ -- 6467
+empty$ -- 2312
+format.name$ -- 1654
+if$ -- 12466
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 642
-newline$ -- 174
-num.names$ -- 165
-pop$ -- 902
+missing$ -- 678
+newline$ -- 183
+num.names$ -- 175
+pop$ -- 951
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 154
 quote$ -- 0
-skip$ -- 6713
+skip$ -- 6796
 stack$ -- 1
-substring$ -- 1678
-swap$ -- 1460
-text.length$ -- 52
+substring$ -- 1712
+swap$ -- 1489
+text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 26
+type$ -- 27
 warning$ -- 0
-while$ -- 232
+while$ -- 244
 width$ -- 0
-write$ -- 555
-(There was 1 warning)
+write$ -- 585
+(There were 8 error messages)
