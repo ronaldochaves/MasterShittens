@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.17)  19 FEB 2021 01:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.17)  19 FEB 2021 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,6 +1152,8 @@ pdftex: bookmark at 55: {3.2.5} {\numberline{3.2.5}Modeling} {subsection.3.2.5}
  {2} {toc} 
 Package hyperref Info: Reference (link) `equation.3.2.1' on input line 56.
 Package hyperref Info: Anchor `equation.3.2.1' on input line 58.
+Package hyperref Info: Reference (cite) `cite.Deb2012' on input line 63.
+Package hyperref Info: Reference (cite) `cite.Deb2012' on input line 63.
 Package hyperref Info: Anchor `Item.14' on input line 67.
 Package hyperref Info: Reference (cite) `cite.Mengistu2004' on input line 67.
 Package hyperref Info: Reference (cite) `cite.Mengistu2004' on input line 67.
@@ -1174,33 +1176,31 @@ Package hyperref Info: Reference (cite) `cite.Juangphanich2019' on input line 7
 2.
 Package hyperref Info: Reference (cite) `cite.Juangphanich2019' on input line 7
 2.
+Package hyperref Info: Anchor `page.22' on input line 73.
+[22
+Package `hyperref' Info: End of reference (link) `equation.3.2.1', line 56.
+Package `hyperref' Info: End of reference (cite) `cite.Deb2012', line 63.
+Package `hyperref' Info: End of reference (cite) `cite.Deb2012', line 63.
+Package `hyperref' Info: End of reference (cite) `cite.Mengistu2004', line 67.
+Package `hyperref' Info: End of reference (cite) `cite.Mengistu2004', line 67.
+Package `hyperref' Info: End of reference (cite) `cite.Asgarshamsi2014', line 6
+8.
+Package `hyperref' Info: End of reference (cite) `cite.Asgarshamsi2014', line 6
+8.
+Package `hyperref' Info: End of reference (cite) `cite.Thorn2016', line 69.
+Package `hyperref' Info: End of reference (cite) `cite.Thorn2016', line 69.
+Package `hyperref' Info: End of reference (cite) `cite.Arabnia2009', line 70.
+Package `hyperref' Info: End of reference (cite) `cite.Arabnia2009', line 70.
+Package `hyperref' Info: End of reference (cite) `cite.Cervantes2018', line 71.
+
+Package `hyperref' Info: End of reference (cite) `cite.Cervantes2018', line 71.
+
+]
 Package hyperref Info: Anchor `Item.20' on input line 73.
 Package hyperref Info: Reference (cite) `cite.Juangphanich2017' on input line 7
 3.
 Package hyperref Info: Reference (cite) `cite.Juangphanich2017' on input line 7
 3.
-Package hyperref Info: Anchor `page.22' on input line 74.
-[22
-Package `hyperref' Info: End of reference (link) `equation.3.2.1', line 56.
-Package `hyperref' Info: End of reference (cite) `cite.Mengistu2004', line 67.
-Package `hyperref' Info: End of reference (cite) `cite.Mengistu2004', line 67.
-Package `hyperref' Info: End of reference (cite) `cite.Asgarshamsi2014', line 6
-8.
-Package `hyperref' Info: End of reference (cite) `cite.Asgarshamsi2014', line 6
-8.
-Package `hyperref' Info: End of reference (cite) `cite.Thorn2016', line 69.
-Package `hyperref' Info: End of reference (cite) `cite.Thorn2016', line 69.
-Package `hyperref' Info: End of reference (cite) `cite.Arabnia2009', line 70.
-Package `hyperref' Info: End of reference (cite) `cite.Arabnia2009', line 70.
-Package `hyperref' Info: End of reference (cite) `cite.Cervantes2018', line 71.
-
-Package `hyperref' Info: End of reference (cite) `cite.Cervantes2018', line 71.
-
-Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2019', line 
-72.
-Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2019', line 
-72.
-]
 Package hyperref Info: Anchor `Item.21' on input line 74.
 Package hyperref Info: Reference (cite) `cite.Agromayor2019' on input line 74.
 Package hyperref Info: Reference (cite) `cite.Agromayor2019' on input line 74.
@@ -1260,6 +1260,10 @@ pdftex: bookmark at 91: {3.3} {\numberline{3.3}Problem Declaration} {section.3.
 3} {1} {toc} 
 Package hyperref Info: Anchor `page.23' on input line 96.
 [23
+Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2019', line 
+72.
+Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2019', line 
+72.
 Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2017', line 
 73.
 Package `hyperref' Info: End of reference (cite) `cite.Juangphanich2017', line 
@@ -1309,6 +1313,8 @@ Package hyperref Info: Anchor `section.3.4' on input line 96.
 
 pdftex: bookmark at 96: {3.4} {\numberline{3.4}Genetic Algorithms} {section.3.4
 } {1} {toc} 
+Package hyperref Info: Reference (cite) `cite.Deb2012' on input line 97.
+Package hyperref Info: Reference (cite) `cite.Deb2012' on input line 97.
 Package hyperref Info: Anchor `subsection.3.4.1' on input line 99.
 pdftex: bookmark at 99: {3.4.1} {\numberline{3.4.1}NSGA-II} {subsection.3.4.1} 
 {2} {toc} 
@@ -1318,6 +1324,8 @@ Package hyperref Info: Reference (cite) `cite.Deb2002' on input line 102.
 )
 Package hyperref Info: Anchor `page.24' on input line 179.
  [24
+Package `hyperref' Info: End of reference (cite) `cite.Deb2012', line 97.
+Package `hyperref' Info: End of reference (cite) `cite.Deb2012', line 97.
 Package `hyperref' Info: End of reference (cite) `cite.Deb2002', line 102.
 Package `hyperref' Info: End of reference (cite) `cite.Deb2002', line 102.
 ]
@@ -1468,10 +1476,10 @@ sfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tese.pdf (33 pages, 300830 bytes).
+Output written on tese.pdf (33 pages, 299949 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
- 539 compressed objects within 6 object streams
+ 601 PDF objects out of 1000 (max. 8388607)
+ 543 compressed objects within 6 object streams
  159 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

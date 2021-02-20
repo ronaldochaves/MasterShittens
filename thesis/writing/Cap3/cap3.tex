@@ -7,6 +7,8 @@ The following relation of previous work are intended to be studied in this part 
 \begin{enumerate}
     \item \cite{Saravanamuttoo2017}
     \item ME-211 class notes
+    \item \cite{Ovsyannikov1971}
+    \item \cite{Belyaev1999}
     \item \cite{IgorGeorge2020}
     \item \cite{Schobeiri2018}
     \item \cite{Denton1993}
@@ -16,8 +18,6 @@ The following relation of previous work are intended to be studied in this part 
     \item \cite{Leach1983}
     \item \cite{Kadhim2018}
     \item \cite{DentonWallis1998}
-    \item \cite{Ovsyannikov1971}
-    \item \cite{Belyaev1999}
 \end{enumerate}
 
 \subsection{Loss Models}
@@ -53,16 +53,16 @@ It is suggested by \cite{Deb2012} the avoidance of several objective functions. 
 It is set the bounds for design variables based on the previous analysis, and considering that the optimal solution is inside this range. Then, it is analised the firsts results and reset the interval for more precise results.
 
 \subsection{Modeling}
-Normalmente, a modelagem matemática do problema de otimização não é facilmente atingível. Uma aternativa é fazer uma modificação nas equações governantes, principalmente quando se possui valores experimentais e observáveis do sistema. Assim, a formulação vai levar em consideração valores simulados \textit{versus} valores observados, onde cria-se variáveis de projeto de maneira auxiliar (espaço de busca $\beta$, nesse caso), sendo a função objetivo $f(\beta)$ da equação \ref{eq:reformulation}, a qual deve ser minimizada. Tal processo tem muita similaridade com a metodologia de regressão linear, onde $f$ representa o erro.
+Normally, mathematical modeling of the optimization problem is not easily reachable. An alternative is modify the governing equations, mainly when exist experimental and observed values of the system in study. Thus, if $E$ and/or any differential equations of $E$ describes a particular process, it is possible to add modification parameters and then a new equation as function of these parameters. The equation \ref{eq:reformulation} describes a possible function of search space $\beta$ (post-added parameters space), related to $E$ observed and simulated. Such process has similarities with a linear regression techniques, where $f$ represents the error or residue to be minimized.
 
 \begin{equation}
 f(\beta) = \left(E_{observed} - E_{simulated}\right)^2
 \label{eq:reformulation}
 \end{equation}
 
-De acordo com [ref] Optimization for Engineering Design Algorithms and Examples, a inclusão de variáveis de projeto artificais frequentemente com que o entendimento do problema seja simplificado, incluindo sua modelagem matemática.
+As demonstred by \cite{Deb2012}, the addition of these artificial parameters can bring advantages in the modeling and understanding of the problem, in terms of insights. 
 
-Lista de referências pretendida para elaboração desta seção:
+The following relation of previous work are intended to be studied in this part of the dissertation:
 \begin{enumerate}
     \item \cite{Mengistu2004}
     \item \cite{Asgarshamsi2014}
@@ -89,15 +89,15 @@ Lista de referências pretendida para elaboração desta seção:
 \end{enumerate}
 
 \section{Problem Declaration}
-A tarefa de otimização será cumprida com o uso de algoritmos genéticos, enquanto que o projeto preliminar da turbina será simplificado e uni-dimensional.
+The optimization task will be accomplished with the use of genetic algorithms, while the preliminary design of the turbine will be simplified and one-dimensional.
 
-Pretende-se utilizar um estudo de caso mais simples com o objetivo de entender o funcionamento da ferramenta de otimização e familiarização do método. Tal exemplo base pode ser feito considerando apenas uma variável de projeto. Após essa fase, o processo formulado como um todo deverá ser resolvido. Pretende-se limitar a quantidade de variáveis de projeto para X, sendo estas facilmente adimensionalizadas para fim de comparação.
+It is intended to use a simpler case study in order to understand the operation of the optimization and familiarization with the method. Such a base example can be done considering only one design variable. After this phase, the process formulated as a whole should be resolved. It is intended to limit the number of design variables to X, which are easily to make them dimensionless for comparison purposes.
 
 \section{Genetic Algorithms}
-De acordo com a [ref] Optimization for Engineering Design Algorithms and Examples, Algoritmos Genéticos (AG, daqui em diante) permitem uma maneira fácil de encontrar múltiplas soluções ótimas simultaneamente em uma única rodada de simulação. Em se tratando de problemas de otimização multiobjetivo, surge um conjunto de soluções ótimas conhecida como Soluções Ótimas de Pareto ou Fronteira de Pareto. Também, AG demonstra um maneira de lidar com múltiplos objetivos e ajuda a encontrar multiplas soluções ótimas de Pareto simultaneamente.
+According to \cite{Deb2012}, genetic algorithms allow a easy way to find multiples optimal solutions simultaneously in a single simulation run. In the case of multiobjective optimization problems, a set of optimal solutions emerges known as Pareto Optimal Solutios or Pareto Frontier.
 
 \subsection{NSGA-II}
-Lista de referências pretendida para elaboração desta seção:
+The following relation of previous work are intended to be studied in this part of the dissertation:
 \begin{enumerate}
     \item \cite{Deb2002}
 \end{enumerate}
