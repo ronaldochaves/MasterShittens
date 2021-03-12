@@ -12,11 +12,11 @@
  \contentsline {section}{\numberline {3.2}Optimization}{20}{section.3.2} 
  \contentsline {subsection}{\numberline {3.2.1}Design Variables}{21}{subsection.3.2.1} 
  \contentsline {subsubsection}{\numberline {3.2.1.1}Sensibility of design variables}{21}{subsubsection.3.2.1.1} 
- \contentsline {subsection}{\numberline {3.2.2}Objective Function}{21}{subsection.3.2.2} 
+ \contentsline {subsection}{\numberline {3.2.2}Objective Function}{22}{subsection.3.2.2} 
  \contentsline {subsection}{\numberline {3.2.3}Constraints}{22}{subsection.3.2.3} 
  \contentsline {subsection}{\numberline {3.2.4}Design Variables Bounds}{22}{subsection.3.2.4} 
  \contentsline {subsection}{\numberline {3.2.5}Modeling}{22}{subsection.3.2.5} 
- \contentsline {section}{\numberline {3.3}Problem Declaration}{23}{section.3.3} 
+ \contentsline {section}{\numberline {3.3}Problem Declaration}{24}{section.3.3} 
  \contentsline {section}{\numberline {3.4}Genetic Algorithms}{24}{section.3.4} 
  \contentsline {subsection}{\numberline {3.4.1}NSGA-II}{24}{subsection.3.4.1} 
  \contentsline {chapter}{\numberline {4}Methodology}{25}{chapter.4} 
@@ -25,7 +25,7 @@
  \contentsline {chapter}{Bibliography}{28}{chapter.7} 
  \SetAppendixTocName {Appendix} 
  \contentsline {chapter}{\numberline {A}First appendix}{32}{appendix.A} 
- \contentsline {section}{\numberline {A.1}First Section of Appendix}{32}{section.A.1} 
+ \contentsline {section}{\numberline {A.1}First section of Appendix}{32}{section.A.1} 
 \SetAppendixTocName {Annex}
  \contentsline {chapter}{\numberline {A}First annex}{33}{annex.a} 
  \contentsline {section}{\numberline {A.1}First section of Annex}{33}{section.a.1} 
