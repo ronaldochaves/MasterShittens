@@ -1,1 +1,9 @@
-tese.fdb_latexmk
+# Auxiliary files from latex compilation
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
