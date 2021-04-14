@@ -1,9 +1,24 @@
-# Auxiliary files from latex compilation
+## Core latex/pdflatex auxiliary files
 *.aux
-*.blg
-*.fdb_latexmk
-*.fls
+*.lof
 *.log
+*.lot
+*.fls
 *.out
-*.synctex.gz
 *.toc
+*.fmt
+*.fot
+
+## Bibliography auxiliary files
+*.bbl
+*.blg
+
+## Build tool auxiliary files
+*.fdb_latexmk
+*.synctex.gz
+
+# hyperref
+*.brf
+
+# glossaries
+*.glo
