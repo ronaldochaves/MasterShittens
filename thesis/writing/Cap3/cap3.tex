@@ -30,7 +30,7 @@ The following relation of previous work are intended to be studied in this part 
 \section{Optimization}
 The procedure of problem formulation starts on creating a mathematical model of the optimal design problem, in order to solve it by an optimization algorithm.
 
-According to \cite{Deb2012} about problem formulation, it is necessary to realize firstly the need of using an optimization in this specific problem. The author also illustrate that optimization algorithms are routinely used in aerospace design activities to minimize the overall weight, since every element or component adds to to the overall weight of the aircraft or spacecraft. Thus, the first step of this problem formulation is already satisfied.
+According to \cite{Deb2012} about problem formulation, it is necessary to realize firstly the need of using an optimization in this specific problem. The author also illustrate that optimization algorithms are routinely used in aerospace design activities to minimize the overall weight, since every element or component adds to the overall weight of the aircraft or spacecraft. Thus, the first step of this problem formulation is already satisfied.
 
 Then, the next step is to choose the important design variables associated with the turbine problem. As said before, these variables can be fluid inlet thermodynamics properties conditions, pressure ratio through turbine stage, mass flow and rotation, since they came from requirements of high order components after engine cycle analysis.
 
@@ -44,6 +44,12 @@ The figure \ref{fig:od_flowchart} shows a sumarizing flowchart about the procedu
     \caption{Flowchart of the optimal design procedure. Source \cite{Deb2012}.}
     \label{fig:od_flowchart}
 \end{figure}
+
+\subsection{Root-Finding}
+Finding the roots of an equation is common to many engineering activities and many root-finding problems are parts of the optimization process. This problem can be solved using an optimization technique by suitably choosing an objective function, as suggested by \cite{Deb2012}. The problem of finding $f(x)$ roots could be converted to, for instance, minimizing $\left|f(x)\right|$ or minimizing $\left[f(x)\right]^2$. The former has an advantage about using derivative-based optimization methods.
+
+Once the optimization problem is formed, a bracketing technique can be used to first bracket the root and then a region-elimination method or a gradient-based search method can be used to find the root with the desired accuracy \cite{Deb2012}.
+
 
 \subsection{Design Variables}
 \subsubsection{Sensibility of design variables}

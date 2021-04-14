@@ -10,12 +10,13 @@
  \contentsline {section}{\numberline {3.1}Turbines}{19}{section.3.1} 
  \contentsline {subsection}{\numberline {3.1.1}Loss Models}{20}{subsection.3.1.1} 
  \contentsline {section}{\numberline {3.2}Optimization}{20}{section.3.2} 
- \contentsline {subsection}{\numberline {3.2.1}Design Variables}{21}{subsection.3.2.1} 
- \contentsline {subsubsection}{\numberline {3.2.1.1}Sensibility of design variables}{21}{subsubsection.3.2.1.1} 
- \contentsline {subsection}{\numberline {3.2.2}Objective Function}{22}{subsection.3.2.2} 
- \contentsline {subsection}{\numberline {3.2.3}Constraints}{22}{subsection.3.2.3} 
- \contentsline {subsection}{\numberline {3.2.4}Design Variables Bounds}{22}{subsection.3.2.4} 
- \contentsline {subsection}{\numberline {3.2.5}Modeling}{22}{subsection.3.2.5} 
+ \contentsline {subsection}{\numberline {3.2.1}Root-Finding}{21}{subsection.3.2.1} 
+ \contentsline {subsection}{\numberline {3.2.2}Design Variables}{22}{subsection.3.2.2} 
+ \contentsline {subsubsection}{\numberline {3.2.2.1}Sensibility of design variables}{22}{subsubsection.3.2.2.1} 
+ \contentsline {subsection}{\numberline {3.2.3}Objective Function}{22}{subsection.3.2.3} 
+ \contentsline {subsection}{\numberline {3.2.4}Constraints}{22}{subsection.3.2.4} 
+ \contentsline {subsection}{\numberline {3.2.5}Design Variables Bounds}{22}{subsection.3.2.5} 
+ \contentsline {subsection}{\numberline {3.2.6}Modeling}{22}{subsection.3.2.6} 
  \contentsline {section}{\numberline {3.3}Problem Declaration}{24}{section.3.3} 
  \contentsline {section}{\numberline {3.4}Genetic Algorithms}{24}{section.3.4} 
  \contentsline {subsection}{\numberline {3.4.1}NSGA-II}{24}{subsection.3.4.1} 
