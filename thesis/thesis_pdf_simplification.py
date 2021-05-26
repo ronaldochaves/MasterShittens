@@ -10,7 +10,7 @@ infile = os.path.join(input_dir, infile_name)
 # output
 prefix = 'Thesis_Ronaldo_Chaves'
 suffix = '.pdf'
-output_dir = './output'
+output_dir = '.'
 outfile_name = prefix + datetime.now().strftime("_%d_%m_%y") + suffix
 outfile = os.path.join(output_dir, outfile_name)
 
