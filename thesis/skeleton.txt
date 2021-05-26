@@ -35,3 +35,21 @@ concondância com a literatura
 ### Meus resultados
 
 ## Conclusões
+
+
+> O que é um projeto preliminar de turbina?
+> O que é um projeto preliminar de bomba?
+> O que é um projeto preliminar de turbobomba?
+> Rodar caso de NSGA-II com resultado conhecido
+> Condições de contorno para problema de otimização:
+>> Manufatura (mínimo raio de curvatura possível, mínima rugosidade de palheta atingida, mínima precisão --> útil para definir folga de topo, etc)
+>> Aspecto estrutural, térmico e vibração
+>> Rotordinâmica
+>> Forças axiais no rolamento
+>> Selos da turbina
+>> Quantidade de estágios
+>> _Shroud_ ou _unshrouded_
+>> Admissão total ou parcial
+>> Condições de _start-up_
+>> Matéria prima --> preço e disponibilidade
+>> Quesitos ambientais --> liberação de NOx
