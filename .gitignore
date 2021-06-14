@@ -25,3 +25,7 @@
 
 # Thesis simplification
 Thesis_Ronaldo_Chaves*.pdf
+
+# Fortran exec files
+*.so
+*so.dSYM
